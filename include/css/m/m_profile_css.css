@@ -1,0 +1,59 @@
+
+
+.m_profile_pic_table { width:100%;min-height:100px; }/* 145px; */
+.m_profile_pic_table tr td div { position:relative; }
+.m_profile_pic_table tr td div img:first-child { position:absolute; }
+.m_profile_pic_table tr td div img:nth-child(2) { border-radius:100%;width:80%; }
+.m_profile_pic_table tr td input[type=button] { width:50%;height:20px;font-size:11px; }
+
+.profile_td { width:25%; }
+
+.m_profile_table_area { height:95px;background:#fefefe;padding-top:10px; }
+.m_profile_table_area_second { background:#fefefe;padding-top:10px; padding-bottom:10px; }
+
+.m_profile_textarea { resize:none;border:1px solid #cccccc;width:85%;height:60px;padding:10px;margin-top:10px;color:#666;font-size:11px; }
+
+.add_bottom_textbox {  margin-top: -10%; margin-left: 10%; }
+.add_bottom_textbox_second {text-align: center; display:inline-block; margin-left: 30%; margin-top:2%; }
+
+
+/*############################################################################################################################################# */
+
+@media all and (max-width:320px){		/* 작은화면용 (ex.Galaxy S2,S1, iPhone 4, iPhone5)*/
+	.m_intro_table { height:55px !important; }
+	.add_arrow img { margin-top:10px }
+}
+
+@media all and (min-width:360px) and (max-width:429px){		/* 중간화면용 (ex.iPhone6, Gal Note4)*/
+	.add_bottom_textbox {  margin-top: -11%; }
+	.add_bottom_textbox_second b { font-size:14px; }
+	/*img { margin-top:14% }*/
+
+	
+}
+
+@media all and (min-width:430px) and (max-width:599px){		/* 작은화면의 가로모드 (ex.Galaxy S2,S1, iPhone 4, iPhone5) (orientation:landscape) */
+
+	.m_profile_pic_table tr td div img:nth-child(2) { width:70%;height:85px; }
+	.mobile_border_table { width:89%; }
+
+	.add_bottom_textbox_second b { font-size:16px !important; }
+
+}
+
+@media all and (min-width:600px){	/* width:600이상 or 가로모드 (orientation:landscape) */
+	
+	.m_profile_pic_table tr td div img:nth-child(1) { width:47px; }
+	.m_profile_pic_table tr td div img:nth-child(2) { width:75%;height:180px; }
+	.m_profile_pic_table tr td input[type=button] { height:27px;font-size:17px; }
+	.m_profile_textarea { font-size:15px; }
+
+	.m_profile_table_area { height:135px;background:#fefefe;padding-top:10px; }
+
+	.mobile_border_table { width:88%; }
+	.mobile_border_table tr td:first-child { font-size:18px; }
+	.mobile_border_table tr td:nth-child(2) div select { font-size:18px; }
+
+	.add_bottom_textbox_second b { font-size:24px !important; }
+	/*img { margin-top:16% }*/
+}

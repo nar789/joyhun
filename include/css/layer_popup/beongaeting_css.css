@@ -1,0 +1,42 @@
+.beongaeting_bg {
+	width:420px;
+	height:348px;
+	background-image: url('/images/layer_popup/beongaeting.gif');
+}
+
+.beongaeting_box {
+	width:380px;
+	height:258px;
+	margin:auto;
+	background:#fff; 
+	border-radius:4px;
+	padding-top:15px;
+}
+
+.beongaeting_first_box span { color:#666; }
+
+.beongaeting_btn {
+	width:94px;
+	height:20px; 
+	border-radius:4px;
+	background:#0f8aff; 
+	text-align:center;
+	line-height:20px; 
+	color:#fff;
+}
+
+.beongaeting_border { 
+	width:363px; 
+	margin:auto; 
+	border-bottom:1px dotted #dcdcdc;
+}
+
+.beongaeting_text_box {
+	height:30px;
+	line-height:30px;
+	width: 350px;
+	margin: auto;
+	color:#666;
+}
+
+.girl_icon { border:none !important; cursor:pointer; }

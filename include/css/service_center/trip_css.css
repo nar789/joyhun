@@ -1,0 +1,10 @@
+.tirp_img_bg{ position:relative; width:100%; height:982px; background-image:url('/images/service_center/trip_bg.png'); }
+.tirp_img_bg div:nth-child(1){ position:absolute; width:536px; height:536px; top:332px; left:116px; background-image:url('/images/service_center/roulette_borad.gif'); z-index:1; }
+.tirp_img_bg div:nth-child(2){ position:absolute; width:110px; height:110px; top:545px; left:333px; background-image:url('/images/service_center/roulette_center.png'); z-index:3; }
+.tirp_img_bg div:nth-child(3){ position:absolute; width:41px; height:55px; top:322px; left:365px; background-image:url('/images/service_center/roulette_point.png'); z-index:2; }
+.tirp_img_bg div:nth-child(4){ position:absolute; width:491px; height:491px; top:355px; left:139px; z-index:1; }
+.tirp_img_bg div:nth-child(5){ position:absolute; width:278px; height:63px; top:896px; left:241px; background-image:url('/images/service_center/roulette_btn.png'); font-weight:bold; text-align:center; color:#FFF; font-size:2.0em; line-height:63px; cursor:pointer; }
+
+
+.vacance_img_bg{ position:relative; width:100%; height:1141px; }
+.vacance_img_bg .result{ position:absolute; width:518px; height:817px; top:267px; left:121px; display:none; }

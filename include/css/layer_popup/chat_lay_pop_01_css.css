@@ -1,0 +1,120 @@
+@media all and (max-width: 1024px){
+
+	#add_chat { height:375px; overflow: auto; }
+	#modal {width:320px !important; top:0px !important; }
+	#modal_close_btn { width:65% !important; margin-top:-6px !important;}
+
+	.txt_box { width:43% !important; margin-left:0 !important; margin-top:12px !important; padding-left:20px !important;} 
+	.txt_box > b { font-size:15px !important;  margin-top:10px !important; margin-bottom:10px !important;} 
+	.txt_box > div { line-height:20px !important; font-size:11px !important;}
+	.txt_box > div > span { font-size:11px !important; }
+	.txt_box_second { display:flex !important; font-size:12px !important; }
+	.chat_text_area { width:92% !important; padding-top:3% !important; }
+	.chat_input_text { padding-left:40px !important; }
+	.bot_btn_01 { height: 40px !important; line-height:40px !important; font-size:15px !important; }
+	.bot_btn_02 { height: 50px !important; line-height:16px !important; }
+	.bot_btn_02 > div {	font-size:13px !important; } 
+	.bot_content { height: 110px !important; } 
+	.day_area { height:50px !important; }
+	.day_text { font-size:12px !important; margin-top:20px !important;} 
+	.recv_chat {width:170px !important; font-size:12px !important; padding:10px !important;}
+	.clock_td { padding-left:6% !important; padding-top:3% !important; font-size:10px !important; }
+	.pop_top_box { width:90%; height:150px; border:1px solid #dcdcdc; margin:auto; background:#fff;}
+	.img_box { margin-top:18px !important;	margin-left:18px !important;width:120px !important; height:135px !important; }
+
+	.chat_input_text, .chat_input_button { height:40px !important; font-size:12px !important;}
+	.chat_input_button { background-size:45px !important; background-position: 0px 8px !important; }
+	.chat_input_text { background-size:27px !important; padding-left:40px !important; !important; background-position: 2px 0px !important;}
+	.chat_text_box { height:75px !important; }
+
+	input[type='text'] {padding-left:40px !important; margin-left:0px !important;}
+
+}
+
+@media all and (min-width:1025px){
+	#add_chat { height:420px; overflow: auto; }
+	#modal {width:520px  !important;}
+}	
+
+
+	.day_area { height:60px; }
+	.day_text { width:170px; font-size:22px; margin-top:16px;} 
+
+	.message_box > img { width:60px; height:60px;}
+	.message_box > table { width:70% !important; }
+
+	.clock_td { font-size:20px; width:94px; padding-left:10px; padding-top:10px; color:#cccccc;}
+
+	.bottom_ic_area { height:80px; }
+	.chat_text_box { height:100px; }
+
+	.bottom_ic_bar_img { margin:0px; height:80px;  }
+
+	.chat_text_area { padding-top:19px;}
+	.chat_input_text, .chat_input_button { height:65px; font-size:24px;}
+	.chat_input_button { background-size:65px; background-position: 0px 15px; }
+	.img_box { margin-top:18px; margin-left:18px; width:128px; height:136px; border: 1px solid #dcdcdc; display:inline-block; vertical-align:top;}
+	.txt_box { padding-left:10px;display:inline-block;line-height: 30px; margin-top:25px; margin-left:20px; width:53%;}
+	.txt_box > b { font-size:24px; margin-top:20px; margin-bottom:15px; font-weight:bold; color:#3c3c3c; }
+	.txt_box > div { color:#7e7e7e; }
+	.txt_box > div > span { color:#6b6b6b; font-size:18px;}
+	.pop_top_box { width:90%; height:175px; border:1px solid #dcdcdc; margin:auto; background:#fff;}
+
+
+input[type='text'] {padding-left:65px; border:0px solid #cccccc !important;}
+
+.chat_text_area { margin:auto; width:98%; text-align:center;}
+.chat_text_area > input[type=text]:-ms-input-placeholder { color:#cccccc !important; }
+.chat_text_area > input[type=text]::-webkit-input-placeholder { color:#cccccc !important; }
+.chat_text_area > input[type=text]::-moz-placeholder, /* 파폭 19+ */
+.chat_text_area > input[type=text]:-moz-placeholder{ color:#cccccc !important; } /* 파폭 4-18 */
+
+.day_area { width:100%;height:60px;display:inline-block;text-align:center;background:url('/images/chat/date_bar.gif'); }
+.day_text { display:inline-block;margin-top:17px;color:#777;font-size:12px;background:#f5f5f5;padding:0 10px 0 10px; } 
+.message_box { margin-bottom:} /* min-height:14px; */
+.message_box > img { display:inlin70px;e-block;width:40px;height:40px;vertical-align:top;border-radius:50%; }
+.message_box > table { display:inline-block;width:70%; }
+
+.recv_arrow { width:0px; height:0px; border-top:10px solid #fff; border-left: 10px solid transparent; display:inline-block; position:absolute; margin-top:8px;}
+.recv_chat { width:320px; background:#fff; margin-left:10px; min-height:14px; max-width:100%; border-radius:8px; font-size:20px; padding:18px; color:#666; display:inline-block;}
+
+.txt_box_second { display:flex !important;}
+.txt_box_second > div { padding-left:5px; font-size:18px;}
+.bot_content { height:155px; margin:auto; width:100%; background:#3e3e3e; padding-top:4%; }
+.bot_btn_01 { height:65px;background: #e15148;line-height:65px;width: 92%;margin: auto;border-radius: 6px;text-align: center;font-size: 24px;color: #fff; cursor:pointer;}
+.bot_btn_02 { height:60px;background: #e6e6e6;line-height:20px;width: 92%;margin: auto;border-radius: 4px;text-align: center;font-size: 18px;color: #666; margin-top:2%; }
+.bot_btn_02 > div { font-size:18px; } 
+
+.chat_input_text {	background:#fff url('/images/chat/input_text_bg.gif') no-repeat;
+					background-size:50px;
+					border:none;
+					background-position: 0px -3px;
+					color:#666;
+					display:inlnie-block;
+					vertical-align:top;
+					width:61%;
+
+					border-radius:10px 0 0 10px;
+					-webkit-border-radius:10px 0 0 10px;
+					-ms-border-radius:10px 0 0 10px;
+					-o-border-radius:10px 0 0 10px;
+				  }
+.chat_input_button { background:#fff url('/images/chat/input_btn_bg.gif') no-repeat;
+					 background-size:65px;
+					 background-position: 0px 15px;
+					 cursor:pointer;
+					 width:17%;
+					 border:none;
+					 color:#817fca;
+					 font-weight:bold;
+					 display:inline-block;
+					 margin-left:-4px;
+					 height:65px;
+
+					 border-radius:0px 10px 10px 0px;
+					 -webkit-border-radius:0px 10px 10px 0px;
+					 -ms-border-radius:0px 10px 10px 0px;
+					 -o-border-radius:0px 10px 10px 0px;
+				 }
+.chat_input_text, .chat_input_button { height:65px; font-size:24px;}
+	

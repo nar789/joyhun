@@ -1,0 +1,102 @@
+.super_main_bg {
+	background:url('/../../images/joy_chatting/super_chat/super_chat_pc_main.png');
+	width:718px;
+	height:678px;
+	text-align:center;
+}
+
+.super_top_content { 
+	width:538px;
+	margin:auto; 
+	padding-top:20px;
+	width:100%;
+}
+
+.super_top_box { 
+	background:#fff;
+	height:272px;
+	text-align:center;
+	width: 95%;
+	margin: auto; 
+	border-top: 2px solid;
+	height: 100%;
+}
+
+.super_top_text_box { 
+	height:80px;
+	margin:auto; 
+	text-align:center;
+	border: 1px solid #c2bbb3;
+	border-radius:4px; 
+	width:75%; 
+	background:#e6e6e6;
+}
+
+.super_btn { 
+	height: 58px;
+	background: #d613c1;
+	margin: auto;
+	border-radius: 50px;
+	line-height: 58px;
+	font-weight: bold; 
+	color:#fff; 
+	width:55%; 
+	font-size:14px; 
+	text-align:center; 
+	line-height:40px; 
+	height:40px;
+}
+
+.super_top_text_box > .color_666 > p { color:#f61cc7; display:inline-block; }
+.super_top_text_box > .padding_7 > p { color:#000; font-weight:bold; display:inline-block; }
+.select_box_border > select { background:#fff url(/images/arrow_btn.gif) no-repeat 98% 50%; }
+
+
+.chatting_middle_box {
+	height:100%;
+	background:#fffef6; 
+	margin-top:3%; 
+	border-radius:6px;
+	text-align:center;
+	margin-bottom:3%;
+}
+
+
+.super_bottom_bg { 
+	background:url('/../../images/joy_chatting/super_chat/super_chat_pc_bot.png');
+	width:716px;
+	height:182px;
+	text-align:center;
+	margin-top:8px;
+	border: 1px solid #dcdcdc;
+}
+
+.super_bottom_btn_box { 
+	margin-top:120px;
+	margin-left:190px;
+}
+
+.super_bottom_btn {
+	width:148px;
+	height:37px;
+	border-radius:4px; 
+	line-height:37px; 
+	background:#ed49e3;
+	color:#fff; 
+	float:left;
+}
+
+.super_bot_txt { 
+	position: absolute;
+	height: 30px;
+	line-height: 30px;
+	margin: auto;
+	text-align: center;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	margin-top:-30px;
+}
+
+.super_chat_msgbox{width:100%; height:100%; border:solid 1px #D2D2D2; padding:10px 10px 10px 10px; color:#A1A1A1; resize:none;}
+
+

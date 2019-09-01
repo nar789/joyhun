@@ -1,0 +1,29 @@
+body {
+	background-color: #FFFFFF;
+	background-repeat: repeat-x;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+
+/* Basic  text */
+td {font-family: Gulim ,Dotum ,Verdana, Arial, Helvetica, geneva,sans-serif;font-size:12px;color:#555555;}
+.t_w {font-family: Dotum, Gulim; font-size: 12px; text-decoration: none; font-weight: bold; color: #FFFFFF;}
+.t_w2 {font-family: Gulim; font-size: 12px; text-decoration: none; font-weight: bold; line-height: 140%; color: #FFFFFF;}
+.t_s {font-family: Dotum, Gulim; font-size: 11px; text-decoration: none; font-weight: bold; color: #FFFFFF;}
+.t_s2 {font-family: Dotum, Gulim; font-size: 11px; text-decoration: none; font-weight: bold; color: #555555;}
+.t_r1 {font-family: Gulim; font-size:12px;color: #e869ff; font-weight:bold}
+.t_r2 {font-family: Gulim; font-size:12px;color: #fe6f23; font-weight:bold}
+.t_r3 {font-family: Gulim; font-size:12px;color: #83bf34; font-weight:bold}
+
+A:link    { text-decoration:none; color:#555555;}
+A:visited { text-decoration:none; color:#555555;}
+A:active  { text-decoration:none; color:#555555;}
+A:hover   { text-decoration:underline; color:#F26522;}
+
+.input { font-family: Gulim, Dotum, verdana; font-size: 12px; color: #555555; background-color: #FFFFFF; border: #DDDDDD 1px solid;}
+.textarea { font-family: Gulim, Dotum, verdana; font-size: 12px; color: #555555; background-color: #FFFFFF; border: #DDDDDD 1px solid; height:40px;}
+.reply { font-family: Gulim, Dotum, verdana; font-size: 12px; color: #555555; background-color: #FFFFFF; border: #DDDDDD 1px solid; height:20px;}
+

@@ -1,0 +1,31 @@
+.member_view_layer{ position:relative; width:100%; height:630px; background-color:#000000; overflow:hidden; }
+.member_view_layer #member_view_slide{ position:relative; width:580px; height:580px; text-align:center; overflow:hidden; }
+.member_view_layer .btn_box{ position:absolute; width:100%; height:80px; top:250px; left:0px; }
+.member_view_layer .btn_box #btn_prev{ position:relative; width:80px; height:80px; cursor:pointer; z-index:100; text-align:center; background-color:#000000; opacity:0.5; float:left; }
+.member_view_layer .btn_box #btn_prev img{ margin-top:7.5px; }
+.member_view_layer .btn_box #btn_next{ position:relative; width:80px; height:80px; cursor:pointer; z-index:100; text-align:center; background-color:#000000; opacity:0.5; float:right; }
+.member_view_layer .btn_box #btn_next img{ margin-top:7.5px; }
+
+.paging{ background:#000000; text-align:center; overflow:hidden; }
+.paging .btn_page{ border:solid 1px #C1C1C1; display:inline-block; width:13px; height:13px; border-radius:13px; margin:3px; font-size:0px; line-height:0; text-indent:-9999px; background:#000000; cursor:pointer;}
+.paging .btn_page.on{ background:#C1C1C1; border-radius:13px; }
+
+@media all and (min-width:320px) and (max-width:599px){
+	.member_view_layer .btn_box{ height:50px; }
+	.member_view_layer .btn_box #btn_prev{ width:50px; height:50px; }
+	.member_view_layer .btn_box #btn_prev img{ width:40%; }
+	.member_view_layer .btn_box #btn_next{ width:50px; height:50px; }
+	.member_view_layer .btn_box #btn_next img{ width:40%; }
+}
+
+@media all and (min-width:600px){
+	
+}
+
+@media all and (min-width:650px){
+
+}
+
+@media all and (min-width:700px){
+
+} 

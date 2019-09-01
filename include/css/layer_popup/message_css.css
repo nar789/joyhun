@@ -1,0 +1,52 @@
+
+#md_content {background:transparent;}
+
+.message_main {
+	width:260px;
+	height:140px;
+}
+
+.message_textbox {
+    width: 252px;
+    height: 122px;
+    background-image: url('/images/layer_popup/message_text_box.png');
+	margin:auto;
+}
+
+.message_imgbd {
+	width:68px;
+	height:78px;
+	border:1px solid #b1b1b1;
+}
+
+.message_btnbox {
+	float:right;
+	width:160px;
+	margin-top:-33px;
+}
+
+.message_btn01 { 
+	width:66px; 
+	height:20px; 
+	border: 1px solid #cd062a; 
+	background-color:#f74b06;
+	color:#fff;
+	text-align:center; 
+	line-height:20px;
+	border-radius:4px; 
+	display:inline-block;
+}
+
+.message_btn02 { 
+	width:56px; 
+	height:20px; 
+	border: 1px solid #cd062a; 
+	background-color:#f74b06;
+	color:#fff;
+	text-align:center; 
+	line-height:20px;
+	border-radius:4px; 
+	display:inline-block;
+}
+
+.girl_icon { border:none !important; cursor:pointer; }

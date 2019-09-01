@@ -1,0 +1,35 @@
+
+
+
+
+
+
+
+.m_pop_btn { width:97%;height:35px;background:#fff;border:1px solid #e15148;border-radius:2px;color:#ea3c3b;font-weight:bold; }
+.m_d53b3b_btn { font-size:12px;border-radius:2px;height:35px; }
+
+.qna_right_border { border:none; border-right:1px solid #ccc; }
+
+
+
+/*############################################################################################################################################# */
+
+@media all and (max-width:320px){		/* 작은화면용 (ex.Galaxy S2,S1, iPhone 4, iPhone5)*/
+}
+
+@media all and (min-width:430px) and (max-width:599px){		/* 작은화면의 가로모드 (ex.Galaxy S2,S1, iPhone 4, iPhone5) (orientation:landscape) */
+
+	table.border_1_cccccc tr td { font-size:14px; }
+	textarea { font-size:14px; }
+
+}
+
+@media all and (min-width:600px){	/* width:600이상 or 가로모드 (orientation:landscape) */
+
+	table.border_1_cccccc tr td { font-size:16px; }
+	textarea { font-size:16px; }
+
+	.m_pop_btn { font-size:16px;height:45px; }
+	.m_d53b3b_btn { font-size:16px;height:45px; }
+
+}

@@ -1,0 +1,115 @@
+/* PC버전 */
+
+.super_main_bg {
+	background:url('/../../images/joy_chatting/super_chat/super_chat_pc_main.png');
+	width:718px;
+	height:778px;
+	text-align:center;
+}
+
+.super_top_content { 
+	padding-top:300px; 
+	width:538px;
+	margin:auto; 
+}
+
+.super_top_box { 
+	position:relative;
+	background:#fff;
+	height:372px;
+	text-align:center;
+}
+
+.super_top_text_box { 
+	width:478px; 
+	height:80px;
+	background:#f8f8f8; 
+	margin:auto; 
+	text-align:center;
+	border: 1px solid #c2bbb3;
+	border-radius:4px; 
+}
+
+.super_btn { 
+	width:310px;
+	height: 58px;
+	background: #d613c1;
+	margin: auto;
+	border-radius: 50px;
+	line-height: 58px;
+	font-size: 24px;
+	font-weight: bold; 
+	color:#fff; 
+	border: 4px solid #fff;
+}
+
+.super_top_text_box > .color_666 > p { color:#f61cc7; display:inline-block; }
+.super_top_text_box > .padding_7 > p { color:#000; font-weight:bold; display:inline-block; }
+.select_box_border > select { background:#fff url(/images/arrow_btn.gif) no-repeat 98% 50%; }
+
+.chatting_middle_box {
+	height:220px;
+	background:#fffef6; 
+	margin-top:8px;
+	padding-top:18px;
+	padding-left:22px;
+	border: 1px solid #dcdcdc; 
+	border-radius:6px;
+
+}
+
+.super_bottom_bg { 
+	background:url('/../../images/joy_chatting/super_chat/super_chat_pc_bot.png');
+	width:716px;
+	height:182px;
+	text-align:center;
+	margin-top:8px;
+	border: 1px solid #dcdcdc;
+}
+
+.super_bottom_btn_box { 
+	margin-top:120px;
+	margin-left:190px;
+}
+
+.super_bottom_btn {
+	width:148px;
+	height:37px;
+	border-radius:4px; 
+	line-height:37px; 
+	background:#ed49e3;
+	color:#fff; 
+	float:left;
+}
+
+.super_bot_txt {
+	text-align:center;
+	margin-top:5px;
+}
+
+.btn_prev { 
+	width:30px;
+	height:162px;
+	float:left;
+}
+
+.btn_next { 
+	width:30px;
+	height:162px;
+	float:right;
+}
+
+.btn_next ,
+.btn_prev > img { 
+	margin-top:68px;
+	cursor:pointer;
+}
+
+.super_chat_msgbox{width:100%; height:100%; border:solid 1px #D2D2D2; padding:10px 10px 10px 10px; color:#A1A1A1; resize:none;}
+
+#touchSlider4 { width:622px; height:180px; margin:0 auto;  position:relative; overflow:hidden; float:left; }
+#touchSlider4 ul { width:99999px; height:180px; position:absolute; top:0; left:0; overflow:hidden; }
+#touchSlider4 ul li { padding-right:10px; float:left; width:146px !important; height:150px;  font-size:14px; color:#333333;}
+#touchSlider4 ul li > img { width:100%; }
+
+#super_loading{position:absolute; width:100px; height:100px; top:0px; left:219px; display:none;}

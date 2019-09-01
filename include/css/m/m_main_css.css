@@ -1,0 +1,89 @@
+
+
+
+
+/* CONTENT */
+
+.m_intro_top { background:url('/../../images/m/m_intro_bg.gif');background-repeat:no-repeat;background-size:100%;text-align:center;height:160px; }
+.m_intro_top > p:first-child { color:#fff;font-size:19px;margin-top:28px;display:inline-block; }
+.m_intro_top > p:first-child > b { color:#fff;font-size:19px;}
+.m_intro_top > p:first-child > b > span { font-style:italic;font-size:19px;}
+
+.m_intro_top > p:nth-child(2) { color:#fff;font-size:11px;margin-top:5px; }
+.m_intro_top > p:nth-child(2) > b { font-size:11px; }
+.m_intro_top_btn { width:30%;height:35px;background:#e15148;border:none;border-radius:6px !important;color:#fff;font-size:15px;margin-top:20px; }
+
+.main_ic { float:left; width:40%; margin-right:3px; margin-top:8px; }
+
+.m_intro_text_td > div:first-child > div > p { color:#999; font-size:12px;margin-top:2px; }
+
+/* 등급 */
+.level_img_m_main > img { width:6%; vertical-align:middle; margin-right:2%}
+.level_img { width:6%;vertical-align:top;display:inline-block;margin-top:3px; }
+.m_intro_text_td > div > b > img { width: 8%;vertical-align: top; }
+
+
+/* 조이매거진 */
+
+.joymagazine_box { width:100%; background:#fff; margin-top:4%; margin-bottom:4%;}
+.magazine_box { padding:2%; }
+.magazine_left { float:left; width:49%; }
+.magazine_right { float:right; width:49%; }
+.magazine_box > div > img { width:100%; }
+.magazine_box > div > b { color:#333; }
+
+
+
+@media all and (max-width:320px){		/* 작은화면용 (ex.Galaxy S2,S1, iPhone 4, iPhone5)*/
+
+	/* CONTENT */
+	.m_intro_top_btn { width:35%;font-size:13px; }
+
+}
+
+@media all and (min-width:360px) and (max-width:429px){
+	
+	.magazine_box > div > b { font-size:14px; }
+}
+
+
+@media all and (min-width:430px) and (max-width:599px){		/* 작은화면의 가로모드 (ex.Galaxy S2,S1, iPhone 4, iPhone5) (orientation:landscape) */
+
+	/* CONTENT */
+	.m_intro_top { height:280px; }/*height:160px;*/
+	.m_intro_top > p:first-child { font-size:30px;margin-top:65px; }
+	.m_intro_top > p:first-child > b { font-size:30px;}
+	.m_intro_top > p:first-child > b > span { font-size:30px;}
+	.m_intro_top > p:nth-child(2) { font-size:16px; }
+	.m_intro_top > p:nth-child(2) > b { font-size:16px; }
+	.m_intro_top_btn { height:40px;font-size:19px;margin-top:20px; }
+
+
+	.m_intro_text_td > div:first-child > div > p { font-size:14px; }
+
+	.level_img { margin-top:0px; }
+	.magazine_box > div > b { font-size:18px; }
+
+}
+
+@media all and (min-width:600px){	/* width : 600넘어가면, 가로모드 (orientation:landscape) */
+
+	/* CONTENT */
+	.m_intro_top { height:330px;width:100%; }
+	.m_intro_top > p:first-child { font-size:42px;margin-top:70px; }
+	.m_intro_top > p:first-child > b { font-size:42px;}
+	.m_intro_top > p:first-child > b > span { font-size:42px;}
+
+	.m_intro_top > p:nth-child(2) { font-size:22px; }
+	.m_intro_top > p:nth-child(2) > b { font-size:22px; }
+	.m_intro_top_btn { height:70px;font-size:26px;margin-top:40px; }
+
+	.right_border { height:36px !important;}
+
+	.m_intro_text_td > div:first-child > div > p { font-size:22px; }
+
+	.level_img { margin-top:3px; }
+
+	.magazine_box > div > b { font-size:22px; }
+
+}

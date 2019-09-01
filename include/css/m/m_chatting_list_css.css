@@ -1,0 +1,21 @@
+
+
+#chat_list_div { background:#f6f7f9; }
+
+.list_chat_cnt { background:#2ec3e5;padding:0 7px;height:20px;line-height:20px;border-radius:20px;color:#fff;display:inline-block;margin-top:4px; }
+
+.m_list_none { text-align:center;margin-top:50px; margin-bottom:50px; }
+.m_list_none div { line-height:16px; }
+
+@media all and (max-width:320px){		/* 작은화면용 (ex.Galaxy S2,S1, iPhone 4, iPhone5)*/
+	.letter-spacing_mi2 { font-size:11px; }
+}
+
+@media all and (min-width:430px) and (max-width:599px){		/* 작은화면의 가로모드 (ex.Galaxy S2,S1, iPhone 4, iPhone5) (orientation:landscape) */
+	.list_chat_cnt { padding:2px 8px;margin-top:3px;font-size:14px;}
+}
+
+@media all and (min-width:600px){	/* width:600이상 or 가로모드 (orientation:landscape) */
+	.list_chat_cnt { padding:4px 10px;margin-top:8px;font-size:22px;}
+	.m_list_none div, .m_list_none div b { font-size:18px; line-height:22px; }
+}

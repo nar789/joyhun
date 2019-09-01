@@ -1,0 +1,213 @@
+
+/***************************** 하단 알람뜨는창 CSS **********************************/
+
+/*일반 알람창*/
+.alarm_area {
+	position:fixed;
+	bottom:-280px;
+	right:20px;
+	width:280px;
+	display:none;
+}
+
+/*작은 상태창*/
+.alarm_area2 {
+	position:fixed;
+	bottom:0px;
+	right:20px;
+	width:280px;
+	z-index:1;
+	display:none;
+}
+
+/*알림창 상세보기*/
+.alarm_area3 {
+	position:fixed;
+	bottom:0px;
+	right:20px;
+	width:280px;
+	z-index:1;
+	display:none;
+}
+
+.alarm_top_area {
+	height:30px;
+	line-height:20px;
+	padding-left:10px;
+	padding-top:10px;
+	padding-right:10px;
+	color:#fff;
+	font-weight:bold;
+	border-top-left-radius:6px;
+	border-top-right-radius:6px;
+}
+
+.alarm_title { display:inline-block;font-size:14px; }
+
+.alarm_content_area {
+	border:1px solid #e6e6e6;
+	border-top:none;
+	background:#fff;
+	/*width:257px;*/
+}
+
+.alarm_content_area2 {
+	border-top:none;
+	background:#fff;
+	/*width:257px;*/
+}
+
+.alarm_content > div .alarm_content_area:first-child { margin-top:-9px;}
+
+.alarm_content_box { 
+	padding:10px 0px 20px 9px; 
+	border-bottom:0px solid #e6e6e6;
+}
+
+
+.alarm_img {
+	border:1px solid #dfe1e0;
+	width:74px;
+	height:71px;
+}
+
+.alarm_text {
+	display:inline-block;
+	color:#666666;
+	font-size:12px;
+}
+
+.alarm_jjim_textbox {
+	display:inline-block;
+}
+
+.alarm_jjim_text {
+	line-height:15px;
+	color:#666666;
+	font-size:12px;
+}
+
+.alarm_jjim_btn {
+	width:51px;
+	height:22px;
+	margin-top:9px;
+	color:#838383;
+	font-size:11px;
+}
+
+.alarm_myprofile_btn {
+	width:85px;
+	height:22px;
+	margin-top:9px;
+	color:#838383;
+	font-size:11px;
+}
+
+.alarm_chatting_btn { width:61px;height:30px; }
+
+.alrim_buttons > input:first-child { margin-right:5px; }
+
+.alarm_small_list {
+	height:40px;
+	border-radius:6px;
+	margin-bottom:2px;
+	padding-left:10px;
+	padding-right:10px;
+	line-height:40px;
+	cursor:pointer;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
+
+.alarm_small_title {
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+	display:inline-block;
+	vertical-align:middle;
+	margin-top:-2px;
+}
+
+.alarm_cnt {
+	width:15px;
+	height:15px;
+	background:#fff;
+	display:inline-block;
+	border-radius:15px;
+	font-size:11px;
+	color:#666666;
+	text-align:center;
+	line-height:15px;
+	font-weight:bold;
+	margin-left:6px;
+	margin-right:11px;
+}
+
+.alarm_small_text {
+	color:#fff;
+	font-size:12px;
+	font-weight:bold;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+
+
+.alarm_content {
+	height:312px;
+	border:1px solid #e6e6e6;
+	padding-top:10px;
+	background:#fff;
+}
+
+
+.alarm_exit_btn {
+	position:absolute;
+	right:8px;
+	margin-top:2px;
+	display:none;
+}
+
+.alarm_list_open_box {
+	height:38px;
+	line-height:38px;
+	border-right:1px solid ##e6e6e6;
+	border-left:1px solid ##e6e6e6;
+	background:#ececec;
+	padding-left:9px;
+	padding-right:9px;
+}
+
+.alarm_all_list_btn {
+	width:89px;
+	height:22px;
+	font-weight:bold;
+	font-size:12px;
+	color:#333333
+}
+
+.alarm_all_list_remove {
+	width:62px;
+	height:22px;
+	font-size:11px;
+	color:#838383;
+}
+
+
+.chat_view {
+	width:152px;
+	height:51px;
+	color:#999;
+	font-weight:bold;
+	resize:none;
+	padding:8px;
+	border:1px solid #dcdcdc;
+	overflow:hidden;
+	line-height:18px;
+	margin-left:-4px;
+}
+
+.chat_deny_text{
+	padding-top:10px;
+	color:#333333
+}
+/***************************** 하단 알람뜨는창 CSS 끝 **********************************/

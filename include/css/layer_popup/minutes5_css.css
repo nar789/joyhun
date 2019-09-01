@@ -1,0 +1,62 @@
+.minutest5_bg {
+	width:420px;
+	height:400px;
+	background-image:url('/images/layer_popup/minutes5_bg.gif');
+}
+
+.minutest5_cont_box { 
+	background: #fff; 
+	height: 240px;
+	border-radius: 4px; 
+	padding-top:1px;
+}
+
+.minutest5_imgbox { 
+	margin-top:10px;
+	width:108px; 
+	height:136px;
+	border: 1px solid #dcdcdc;
+	float:left;
+}
+.minutest5_textbox {
+	margin-top:10px;
+	float:right; 
+	width:218px;
+	height:135px;
+	border: 1px solid #dcdcdc;
+	background:#fffcea;
+}
+
+.minutest5_text {
+	padding:5px;
+	line-height:150%; 
+	color:#666;
+}
+
+.minutest5_textbox_second {
+	width:110px;
+	height:45px;
+	display: inline-block;
+	line-height: 15px;
+	text-align: center;
+}
+
+.minutest5_textbox_second p { color:#666; }
+
+.minutest5_text_text {
+	font-weight:bold;
+	display:inline-block;
+	font-size:12px;
+	margin-top:11px; 
+	color:#fff;
+}
+
+.minutest5_text_text b { font-size:14px; color:#f0d514;}
+
+.blocks { display:inline-block; }
+
+.blocks span { color:#666; }
+.blocks span b:first-child { font-size:14px; color:#1c84ba; }
+.blocks span b:last-child { font-size:14px; color:#ff0734; }
+
+.girl_icon { border:none !important; cursor:pointer; }

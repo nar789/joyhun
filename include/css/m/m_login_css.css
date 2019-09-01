@@ -1,0 +1,46 @@
+
+
+/* CONTENT */
+.m_login_area { width:95%;background:#fff;margin:0 auto;border-radius:4px;min-height:135px; }
+.m_login_box { width:95%;margin:0 auto;padding-top:30px;padding-bottom:20px; }
+
+.m_login_bottom_btn { border:1px solid #595959;background:#fff;width:97%; padding:6%; border-radius:4px;color:#555;font-weight:bold;font-size:14px; }
+.m_login_bottom_btn_m { border:1px solid #d53b3b;;background:#fff;width:98.5%; border-radius:4px;color:#d53b3b;;font-weight:bold;font-size:14px; }
+
+.text_cursor { border:1px solid #d53b3b !important; }
+.m_login_input { border:1px solid #ccc;width:95%;height:30px; }
+
+
+
+
+.captcha_text { color:#333; font-size:16px;margin-top:10px; }
+.alert_message { color:#ea3c3c; font-size:16px;margin-top:10px;margin-bottom:20px; }
+
+.def_login_box > input[type=text] { width:100%; border:1px solid #ccc; height:33px;margin-top:10px; }
+
+
+
+
+@media all and (max-width:320px){		/* 작은화면용 (ex.Galaxy S2,S1, iPhone 4, iPhone5)*/
+}
+
+@media all and (min-width:430px) and (max-width:599px){		/* 작은화면의 가로모드 (ex.Galaxy S2,S1, iPhone 4, iPhone5) (orientation:landscape) */
+
+	.m_login_bottom_btn { font-size:17px; } 
+}
+
+@media all and (min-width:600px){	/* width:600이상 or 가로모드 (orientation:landscape) */
+
+	.m_login_input { height:45px; }
+	input.m_checkbox + label { background-size:22px;height:22px;font-size:20px;padding:0 0 0 30px; }
+	input.m_checkbox:checked + label { background-size:22px;height:22px;font-size:20px;padding:0 0 0 30px; }
+
+	.m_login_area { min-height:170px; }
+
+	.m_d53b3b_btn { height:104px !important; font-size:26px; }
+
+	.m_login_bottom_btn { font-size:26px; }
+
+
+
+}

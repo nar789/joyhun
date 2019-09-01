@@ -1,0 +1,128 @@
+
+
+.blind_tab { width:100%; }
+.blind_tab tr td { width:33%;background:#fff;border-bottom:1px solid #ccc;text-align:center;height:33px; }
+.blind_tab tr td:first-child { border-right:1px solid #ccc; }
+.blind_tab tr td:last-child { border-left:1px solid #ccc; }
+
+
+
+.m_recv_list { width:100%; }
+.m_recv_list tr td { width:50%;padding-top:10px; }
+.m_recv_list tr td:frist-child > div { float:left; }
+.m_recv_list tr td:last-child > div { float:right; }
+.m_recv_list tr:last-child td { padding-bottom:20px; }
+
+.m_like_bg { padding-top:21px;height:115px;border-radius:6px;margin-top:8px; }
+
+.m_recv_box { width:95%;height:203px;background:#fff;border:1px solid #e6e6e6; }
+
+
+.m_good_thum { height:150px;display:table-cell;text-align:center;vertical-align:middle; }
+.m_good_thum img {max-width:100%;max-height:140px;margin-top:10px;display:inline;text-align:center;vertical-align:middle;border-radius:6px;}
+
+.m_good_btn { height:35px;line-height:35px;margin:0 auto;background:#ff87a0;border-radius:3px;margin-top:7px;text-align:center;color:#fff;font-weight:bold;font-size:15px; }
+
+
+/* DATA NULL */
+
+.good_none { border:1px solid #e6e6e6;background:#fff;text-align:center;margin-top:10px;padding-top:60px;height:350px; }
+.profile_go_btn { background:#36c8e9;border:none;width:40%;height:37px;color:#fff;font-weight:bold;font-size:14px;border-radius:4px;margin-top:50px; }
+
+
+/* 보낸 좋아요 list */
+
+.blind_good_btn { background:#36c8e9;width:100%;margin:0 auto;border-radius:4px;color:#fff;font-weight:bold;font-size:15px;height:35px;line-height:35px;margin-top:7px;text-align:center; }
+.blind_good_btn img { height:70%;vertical-align:middle; }
+
+.g_stamp_per { position:absolute;width:43%;height:130px;text-align:center;margin-top:20px;margin-left:-42%; }
+.g_stamp_per img { height:90%; }
+
+
+
+
+/* 서로 좋아요 list */
+
+.toget_area { width:100%;background:#fff;border:1px solid #e6e6e6;height:160px;margin-top:10px; }
+.toget_box { width:100%;margin:0 auto;margin-top:10px;height:120px; }
+
+.toget_img_area { display:table;height:139px;width:100%; }
+.toget_img_box { display:table-cell;vertical-align:middle;text-align:center;height:139px; }
+.toget_img_box img { max-width:75%;border-radius:6px; }
+
+.together_text { margin-top:7px; }
+.together_text p { font-size:15px;margin-bottom:7px; }
+.together_text span { line-height:18px;font-size:13px; }
+
+.good_ic_area { width:90%;margin-top:10px; }
+.good_ic_area img { width:25%;margin-right:6px; }
+
+
+
+/*############################################################################################################################################# */
+
+@media all and (max-width:320px){		/* 작은화면용 (ex.Galaxy S2,S1, iPhone 4, iPhone5)*/
+	
+	.profile_go_btn { font-size:12px;width:45%; }
+	.m_like_bg { padding-top:21px;height:115px;border-radius:6px;margin-top:8px; }
+
+}
+
+@media all and (min-width:430px) and (max-width:599px){		/* 작은화면의 가로모드 (ex.Galaxy S2,S1, iPhone 4, iPhone5) (orientation:landscape) */
+	
+	.blind_tab tr td { height:45px;font-size:14px; }
+
+	.padding_top_10 > .color_666.line-height_18 {font-size:14px; }
+	.padding_top_10 > p > .color_ea3c3c {font-size:14px; }
+
+
+	/* DATA NULL */
+	.good_none { height:400px;margin-bottom:20px; }
+	.good_none > p { font-size:14px; }
+	.profile_go_btn { font-size:16px;height:40px; }
+
+
+	/* 서로 좋아요 list */
+	.toget_area { height:165px; }
+	.good_ic_area img { width:18%; }
+
+}
+
+@media all and (min-width:600px){	/* width:600이상 or 가로모드 (orientation:landscape) */
+
+	.blind_tab tr td { height:60px;font-size:18px; }
+
+	.padding_top_10 > .color_666.line-height_18 {font-size:18px; margin-top:10px; margin-bottom:10px; }
+	.padding_top_10 > p > .color_ea3c3c {font-size:18px; }
+
+	/* 받은 좋아요 */
+	.m_good_btn { height:50px;line-height:50px;font-size:22px; }
+
+
+	.m_like_bg { padding-top:55px;height:144px; }
+
+	/* DATA NULL */
+	.good_none { height:600px;padding-top:85px;margin-bottom:40px; }
+	.good_none > p { font-size:18px; }
+	.profile_go_btn { font-size:20px;height:50px; }
+
+
+	/* 보낸 좋아요 list */
+	.m_recv_box { height:290px; }
+	.m_good_thum { height:220px; }
+	.m_good_thum img {max-width:100%;max-height:210px;}
+
+	.blind_good_btn { height:50px;line-height:50px;font-size:22px; }
+	.g_stamp_per img { height:135%; }
+	.g_stamp_per { text-align:left; margin-left:-230px; }
+
+	/* 서로 좋아요 list */
+	.toget_area { height:220px; }
+	.toget_area:last-child { margin-bottom:20px; }
+	.toget_img_box { height:200px; }
+	.together_text p { font-size:22px;margin-bottom:10px; }
+	.together_text span { line-height:24px;font-size:18px; }
+
+	.good_ic_area { width:76%;margin-top:25px; }
+	.good_ic_area img { width:22%; }
+}

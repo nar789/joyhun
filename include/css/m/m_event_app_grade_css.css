@@ -1,0 +1,73 @@
+.con_box{ position:absolute; width:66.5%; height:44.5%; top:11.5%; left:30%; }
+.con_box div:nth-child(1){ position:relative; width:100%; height:30%; }
+.con_box div:nth-child(2){ position:relative; width:100%; height:34%; }
+.con_box div:nth-child(3){ position:relative; width:100%; height:34%; }
+
+.con_box div:nth-child(1) input[type=text]{ position:relative; width:80%; height:70%; top:13%; border:solid 2px #000000; }
+.con_box div:nth-child(2) input[type=text]{ position:relative; width:50%; height:70%; top:13%; border:solid 2px #000000; }
+.con_box div:nth-child(2) input[type=file]{ position:absolute; width:1px; left:1px; margin:0; padding:0; display:none; }
+.con_box div:nth-child(2) label{ display:inline-block; width:30%; height:70%; background-color:#000000; color:#FFF; font-weight:bold; vertical-align:top; margin-top:2.5%; text-align:center; line-height:250%; }
+.con_box div:nth-child(3) input[type=text]{ position:relative; width:20%; height:70%; top:13%; border:solid 2px #000000; }
+.con_box div:nth-child(3) b{ vertical-align:bottom; }
+
+.event_btn{ position:absolute; width:30%; height:10%; top:67%; left:35%; background-color:#E01B1F; text-align:center; font-weight:bold; line-height:230%; color:#FFF; cursor:pointer; }
+
+
+
+.user_name{ line-height:300%; }
+.user_pic{ line-height:400%; color:#1d1cfc; cursor:pointer; }
+.user_phone{ line-height:400%; }
+
+
+@media all and (max-width:320px){
+	
+.user_name{ line-height:270%; }
+.user_pic{ line-height:320%; }
+.user_phone{ line-height:320%; }
+.event_btn{ height:12%; line-height:220%; }
+.con_box div:nth-child(2) label{ line-height:200%; }
+
+}
+
+@media all and (min-width:321px) and (max-width:400px){
+	
+}
+
+@media all and (min-width:360px) and (max-width:399px){
+.con_box div:nth-child(2) label{ line-height:220%; }
+
+}
+
+@media all and (min-width:400px) and (max-width:429px){		
+	
+}
+
+@media all and (min-width:430px) and (max-width:599px){
+
+}
+
+@media all and (min-width:480px) and (max-width:599px){
+
+}
+
+@media all and (min-width:540px) and (max-width:599px){
+
+}
+
+@media all and (min-width:600px){
+	
+}
+
+@media all and (min-width:650px){
+
+}
+
+@media all and (min-width:700px){
+
+.user_name{ font-size:1.5em; line-height:370%; }
+.user_pic{ font-size:1.5em; line-height:450%; }
+.user_phone{ font-size:1.5em; line-height:450%; }
+.event_btn{ font-size:1.5em; line-height:250%; }
+.con_box div:nth-child(2) label{ line-height:300%; font-size:1.5em; }
+
+} 

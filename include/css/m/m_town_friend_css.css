@@ -1,0 +1,74 @@
+#tbl { background:#f6f7f9 !important;}
+/* 지도로 보기 */
+.m_top_cont_box { float: left;line-height: 37px; height:37px; padding:3%;text-align: left;padding-left: 10px;width: 25%;}
+.m_top_cont_img_box { width:30%; display:inline-block; vertical-align: bottom; } 
+.m_top_cont_img_box > img { width:27px; }
+.m_top_cont_box > b { font-size:14px;vertical-align: super; }
+.m_top_cont_btn { width:125%; height:37px; background:#e15148; color:#fff; line-height:37px; text-align:center; border-radius:4px;}
+.m_mid_text_box { height:50px; width:100%; background:#fff; line-height:50px; position:relative;}
+.m_mid_text_box > b:nth-child(1) {color:#f21a0c; font-size:16px; padding-left:3%;}
+.m_mid_text_box > b:nth-child(2) { font-size:16px;}
+.m_mid_text_box > di:nth-child(3) {border:solid 1px #EA3C3B; position:absolute; width:100px; height:30px; top:10px; left:70%; background-color:#FFF; border-radius:5px; text-align:center; line-height:30px; font-weight:bold; color:#EA3C3B; cursor:pointer;}
+.height_60.width_100per.line-height_55.border_bottom_1_ececec .member_thumb{ position:relative; width:15%; display:inline-block; text-align:center; margin-left:3%;}
+.height_60.width_100per.line-height_55.border_bottom_1_ececec .member_thumb img{border-radius:50%; width:85%; vertical-align:middle;}
+.height_60.width_100per.line-height_55.border_bottom_1_ececec > b:nth-child(2){ font-size:16px;} 
+.m_cont_right_box { float:right; padding-right:5%; width:30%; margin-top:10px; }
+.m_cont_right_btn_first { width:100%; height:35px; line-height:35px; border:1px solid #ea3c3b; color:#fff; background:#ea3c3b;text-align:center; border-radius:4px; cursor:pointer;}
+.m_cont_right_btn { width:100%; height:35px; line-height:35px; border:1px solid #ea3c3b; color:#ea3c3b; text-align:center; border-radius:4px; cursor:pointer;}
+.m_town_map { display:block; }
+.m_town_map img { width:100%; }
+.m_map_text { width:95%;margin:0 auto;background:#fff;text-align:center;height:35px;line-height:35px;margin-top:-45px; }
+.m_map_text b,.m_map_text span { font-size:14px; }
+
+
+/* 등급 표시 */
+.m_intro_text_td > div > b > img { width:8%; vertical-align:top; }
+
+
+/* 지도에 표시되는 회원들 원형이미지 표시 */
+._nmap_marker{border-radius:100px;}
+
+/* 내위치 변경완료 버튼 */
+.my_position_save{border:solid 1px #EA3C3B; position:relative; width:50%; height:30px; margin:auto; background-color:#FFF; text-align:center; line-height:30px; font-size:1.2em; font-weight:bold; color:#EA3C3B; border-radius:4px; cursor:pointer;}
+
+/*############################################################################################################################################# */
+
+#member_map{ height:500px !important; background-color:#FFF; }
+#member_map img{ width:100% !important; height:100% !important;}
+
+
+@media all and (max-width:320px){		/* 작은화면용 (ex.Galaxy S2,S1, iPhone 4, iPhone5)*/
+
+	/* 지도로 보기 */
+	.m_map_text { height:30px;line-height:30px;margin-top:-35px; }
+	.m_map_text b,.m_map_text span { font-size:12px; }
+	
+	#member_map{ height:300px !important; }
+}
+
+@media all and (min-width:360px) and (max-width:429px){
+	#member_map{ height:350px !important; }
+}
+
+@media all and (min-width:430px) and (max-width:599px){		/* 작은화면의 가로모드 (ex.Galaxy S2,S1, iPhone 4, iPhone5) (orientation:landscape) */
+
+	/* 지도로 보기 */
+	.m_map_text { height:40px;line-height:40px;margin-top:-50px; }
+	.m_map_text b,.m_map_text span { font-size:16px; }
+	.m_top_cont_box > b { font-size:18px; }
+	.m_cont_right_btn blod { font-size: 16px; }
+	.height_60.width_100per.line-height_55.border_bottom_1_ececec .member_thumb img{ width:68%;}
+	
+	#member_map{ height:350px !important; }
+}
+
+@media all and (min-width:600px){	/* width:600이상 or 가로모드 (orientation:landscape) */
+
+	/* 지도로 보기 */
+	.m_map_text { height:50px;line-height:50px;margin-top:-60px; }
+	.m_map_text b,.m_map_text span { font-size:20px; }
+	.height_60.width_100per.line-height_55.border_bottom_1_ececec .member_thumb img{border-radius:50%; width:51%;}
+	
+	#btn_position{left:80%;}
+
+}

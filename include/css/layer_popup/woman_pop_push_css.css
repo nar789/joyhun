@@ -1,0 +1,18 @@
+.woman_pop_con{ position:relative; width:100%; height:400px; }
+.woman_pop_bg_1{ background-image:url('/images/woman_pop_bg_1.png'); }
+.woman_pop_bg_2{ background-image:url('/images/woman_pop_bg_2.png'); }
+.woman_pop_bg_3{ background-image:url('/images/woman_pop_bg_3.png'); }
+
+.woman_pop_con .btn_close_box{ position:relative; width:100%; height:25px; }
+.woman_pop_con .btn_close_box img{ float:right; margin-top:11px; margin-right:19px; cursor:pointer; }
+
+.woman_pop_con .sub_con{ position:relative; width:100%; height:330px; }
+.woman_pop_con .sub_con .con_box{ position:absolute; width:388px; height:205px; top:123px; left:20px; }
+.woman_pop_con .sub_con .con_box .member_box{ border:solid 1px #DDDBDC; position:relative; width:124px; height:100%; display:inline-block; background-color:#FFF; vertical-align:top; }
+.woman_pop_con .sub_con .con_box .member_box div:nth-child(1){ position:relative; width:108px; height:108px; margin:auto; }
+.woman_pop_con .sub_con .con_box .member_box div:nth-child(2){ position:relative; width:108px; height:50px; margin-left:7px; padding-top:6px; padding-bottom:6px; text-align:center; line-height:16px; color:#7B7B7B; font-weight:bold; }
+.woman_pop_con .sub_con .con_box .member_box div:nth-child(3){ position:relative; width:75px; height:20px; margin:auto; border-radius:5px; cursor:pointer; text-align:center; line-height:20px; font-weight:bold; color:#FFF; }
+
+.woman_pop_con .bottom_tit_box{ position:relative; width:100%; height:45px; text-align:center; line-height:45px; }
+.woman_pop_con .bottom_tit_box b{ font-size:1.3em; }
+.woman_pop_con .bottom_tit_box img{ vertical-align:-5px; margin-left:5px; cursor:pointer; }

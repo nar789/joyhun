@@ -1,0 +1,48 @@
+.m_contents{ position:relative; width:100%; }
+.m_contents .rt_point{ position:absolute; width:6%; height:6%; top:25%; left:47%; z-index:3; background-image:url('/images/m/m_roulette_point.png'); background-size:100%; }
+.m_contents .rt_center{ position:absolute; width:20%; height:15.5%; top:50%; left:40%; z-index:10; background-image:url('/images/m/m_roulette_center.png'); background-size:100%; }
+.m_contents .rt_board{ position:absolute; width:82%; height:63.5%; top:26%; left:9%; z-index:2; background-image:url('/images/m/m_roulette_board.gif'); background-size:100%; }
+.m_contents .rt_img{ position:absolute; width:74.9%; height:58%; top:28.7%; left:12.3%; z-index:2; }
+.m_contents .rt_btn{ position:absolute; width:36%; height:6.3%; top:91%; left:32%; background-image:url('/images/m/m_roulette_btn.png'); background-size:100%; color:#FFF; font-weight:bold; text-align:center; font-size:2.0em; line-height:240%; cursor:pointer; }
+
+.m_contents .result{ position:absolute; width:66%; height:73%; top:24%; left:17%; display:none; }
+
+@media all and (max-width:320px){
+	.m_contents .rt_btn{ font-size:1.0em; }
+}
+
+@media all and (min-width:321px) and (max-width:400px){
+	.m_contents .rt_btn{ font-size:1.1em; }
+}
+
+@media all and (min-width:360px) and (max-width:399px){
+
+}
+
+@media all and (min-width:400px) and (max-width:429px){		
+	.m_contents .rt_btn{ font-size:1.2em; }
+}
+
+@media all and (min-width:430px) and (max-width:599px){
+
+}
+
+@media all and (min-width:480px) and (max-width:599px){
+
+}
+
+@media all and (min-width:540px) and (max-width:599px){
+
+}
+
+@media all and (min-width:600px){
+	
+}
+
+@media all and (min-width:650px){
+
+}
+
+@media all and (min-width:700px){
+
+}

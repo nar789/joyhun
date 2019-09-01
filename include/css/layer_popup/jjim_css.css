@@ -1,0 +1,60 @@
+
+.popup_top_area {
+	width:256px;
+	height:50px;
+	background:#e15148;
+	padding-left:10px;
+	padding-right:10px;
+	line-height:50px;
+}
+
+
+.beongae_popup_area {
+	width:256px;
+	height:235px;
+	padding-left:20px;
+	padding-top:20px;
+}
+
+.beongae_popup_imgbox {
+	width:84px;
+	display:inline-block;
+	vertical-align:top;
+}
+
+.beongae_popup_imgbox > img {
+	width:74px;
+	height:71px;
+	border:1px solid #dfe1e0;
+}
+
+.beongae_popup_contentbox {
+	width:152px;
+	display:inline-block;
+	margin-left:-3px;
+}
+
+.beongae_popup_textarea {
+	border:1px solid #dcdcdc;
+	width:216px;
+	height:50px;
+	margin-top:6px;
+	resize:none;
+	padding:9px;
+}
+.beongae_popup_contentbox > textarea:-ms-input-placeholder { color: #999999; }
+
+
+
+
+
+
+
+.friend_textarea {
+	border:1px solid #ccc;
+	width:224px;
+	height:43px;
+	margin-top:10px;
+	padding:5px;
+	resize:none;
+}

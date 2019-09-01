@@ -1,0 +1,33 @@
+.talk_thumb {
+	width:78px;
+	padding-top:16px;
+	padding-left:27px;
+	cursor:pointer;
+}
+
+.talk_thumb > img {
+	width:74px;
+	height:71px;
+	border:1px solid #dfe1e0;
+}
+
+.talk_top_banner {
+	background:url('/images/talk/talk_banner.gif');
+	width:718px;
+	height:208px
+}
+
+.talk_top_box {
+	width:482px;
+	height:98px;
+	border:3px solid #5e3ee5;
+	background:#fff;
+}
+
+
+.talk_com_thumb >  img { border:1px solid #dfe1e0; }
+
+.level_img_talk > img { vertical-align:top; margin-top:-4px; }
+
+
+

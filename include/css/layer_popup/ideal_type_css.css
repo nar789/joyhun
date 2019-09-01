@@ -1,0 +1,53 @@
+.ideal_type_bg {
+	width:430px;
+	height:400px;
+	background-image:url('/images/layer_popup/ideal_type_bg.gif');
+}
+
+.ideal_type_v_bg {
+	width:430px;
+	height:400px;
+	background-image:url('/images/layer_popup/ideal_type_v_bg.gif');
+}
+
+.ideal_type_text_box {
+	min-width:183px;
+	height:28px;
+	background:#fff3f3;
+	border: 1px solid #f3a8a8;
+	/*text-align: center;*/
+	line-height: 26px;
+}
+
+.ideal_type_text_box > span:nth-child(1) { color:#3f0a05; font-size:14px; margin-left:10px; }
+.ideal_type_text_box > span:nth-child(2) { color:#333333; font-size:14px; margin-right:10px; }
+
+.ideal_type_imgbox {
+	width:93px;
+	height:118px; 
+	border:1px solid #dcdcdc; 
+	background:#fff;
+	margin-top:10px;
+	display:inline-block;
+}
+
+.ideal_type_imgbd {
+	margin:auto; 
+	width:83px;
+	height:88px;
+	border:1px solid #dcdcdc;
+}
+
+.ideal_type_btnbox { 
+	width:95px;
+	height:25px;
+	text-align:center;
+	margin-top:5px;
+
+}
+
+b:last-child { color:#ef1674; font-size:16px; }
+span:last-child { color:#5dc5cd; font-size:16px; font-weight:bold;}
+
+.girl_icon { border:none !important; cursor:pointer; }
+.ideal_type_imgbd img { cursor:pointer; }

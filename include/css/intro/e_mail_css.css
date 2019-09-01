@@ -1,0 +1,87 @@
+.email_bg {
+	width:870px;
+	height:916px; 
+	margin : 0 auto; 
+	background: url('/images/intro/email_bg.gif'); 
+	padding-top: 55px;
+}
+
+.email_top_img {	
+	margin: auto;
+	width: 678px;
+	height: 122px;
+}
+
+.email_main_box {
+	width:676px; 
+	height:637px;
+	background:#fff; 
+	border: 1px solid #d7d7d7; 
+	border-top:none;
+	margin: auto; 
+	padding-top: 40px;
+}
+
+.email_text_box_01 > b { font-size:13px;}
+.email_text_box_02 > b { font-size:13px;}
+.email_text_box_01 > b:first-child { color:red; }
+.email_text_box_02 > b:nth-child(even) { color:red; }
+
+.email_btn { 
+	float:right;
+	height:30px;
+	width:110px;
+	background:#ed4949;
+	border-radius:4px;
+	font-size:9.75pt;
+	color:#fff;
+	line-height:30px;
+	font-weight:bold;
+	margin-top:29px;
+	margin-right:20px;
+	text-align:center;
+	margin-bottom:50px;
+	margin-right:240px;
+}
+
+.email_content_box {
+	width:597px; 
+	height:118px; 
+	background:#f4f4f6;
+	border-top:1px solid #333; 
+	border-bottom: 1px  solid #ececec;
+	margin-top:12px;
+}
+
+.email_bottom_text_box { 
+	width:638px;
+	height:58px;
+	background:#f9f9f9; 
+	margin:auto;
+}
+
+.email_bottom_text_01 { 
+	margin-left:18px;
+	padding-top:10px; 
+	font-size:11px 
+}
+
+.email_bottom_text_01 > a > b {  font-size:11px !important; color:#333; font-weight:900; } 
+.email_bottom_text_01 > a > span { font-size:11px !important; color:red; font-weight:bold;} 
+
+
+.email_bottom_text_02 { 
+	margin-left:18px; 
+	font-size:11px !important;
+}
+
+.email_bottom_text_02 > a > span { font-size:11px !important; color:red;font-weight:bold;text-decoration: underline; }
+
+.email_bottom_text_ic {	
+	width:1px;
+	height:10px;
+	background:#e6e6e6;
+	position: absolute;
+	display:inline-block;
+	margin-top: 5px;
+}

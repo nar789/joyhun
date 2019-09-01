@@ -1,0 +1,15 @@
+.app_grade_top{ position:relative; width:100%; height:1087px; }
+.app_grade_main{border:solid 1px red;  position:relative; width:100%; height:492px; }
+.app_grade_main .user_data_box{ position:absolute; width:450px; height:250px; top:135px; left:265px; }
+.app_grade_main .user_data_box table{ width:100%; }
+.app_grade_main .user_data_box table tr{ height:70px; }
+.app_grade_main .user_data_box table th{ width:85px; vertical-align:top; text-align:left; padding-top:15px; padding-left:10px; font-size:1.2em; }
+.app_grade_main .user_data_box table td{ width:365px; }
+.app_grade_main .user_data_box table td input[type=text]{ border:solid 2px #000000; height:25px; }
+.app_grade_main .user_data_box table td label{ width:85px; height:29px; background-color:#000000; color:#FFF; font-weight:bold; border:none; display:inline-block; vertical-align:top; text-align:center; line-height:29px; cursor:pointer; }
+
+#user_upload_pic{ position:absolute; width:1px; height:1px; padding:0; margin:-1px; display:none; }
+.reg_btn_box{ position:relative; width:100%; height:38px; margin-top:2px; text-align:center; }
+.reg_btn_box input[type=button]{ border:none; width:140px; height:38px; background-color:#E11A1F; color:#FFf; font-weight:bold; font-size:1.2em; }
+
+

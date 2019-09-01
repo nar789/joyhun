@@ -1,0 +1,56 @@
+
+
+
+.guide_top_area { background:url('/../../images/etc/joy_banner_top.png');height:540px; }
+
+.guide_top_btn { 
+	-webkit-box-shadow: 10px 9px 20px -10px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 9px 20px -10px rgba(0,0,0,0.75);
+	box-shadow: 10px 9px 20px -10px rgba(0,0,0,0.75);
+	width:368px;
+	height:67px;
+	background:#b8b8b8;
+	border:3px solid #fff;
+	border-radius:60px;
+	text-align:center;
+	line-height:67px;
+	color:#fff;
+	font-size:24px;
+	font-weight:bold;
+	display:inline-block;
+	margin-top:369px;
+	margin-left:84px;
+}
+
+.guide_content { width:958px;height:848px;border:1px solid #e2e1e4;margin-top:17px; }
+
+.guide_menu { margin-top:60px;margin-left:214px;display:inline-block; }
+.guide_menu li { display:inline-block;text-align:center;margin-right:51px;cursor:pointer; }
+.guide_menu li p { color:#bfb8bb;font-size:15px;margin-top:5px; }
+
+.slide_area { margin-left:165px;width:670px;margin-top:60px; }
+#wrapper { height:846px; }
+
+.sliderbutton {float:left; width:32px; padding-top:255px}
+.sliderbutton img {cursor:pointer}
+#slider {float:left; position:relative; overflow:auto; width:580px; height:622px; border:2px solid #fff; background:#fff; margin-left:15px; text-align:center;}
+#slider ul {position:absolute; list-style:none; top:0; left:0;}
+#slider li {float:left; width:580px; height:622px; padding-right:10px;}
+
+.pagination {float:left; list-style:none; height:25px; margin:15px 0 0 32px; height:100px;}
+
+.slide_1 { background:url('/../../images/etc/guide_ic_1.gif');width:50px;height:50px; }
+.slide_2 { background:url('/../../images/etc/guide_ic_2.gif');width:50px;height:50px; }
+.slide_3 { background:url('/../../images/etc/guide_ic_3.gif');width:50px;height:50px; }
+.slide_4 { background:url('/../../images/etc/guide_ic_4.gif');width:50px;height:50px; }
+.slide_5 { background:url('/../../images/etc/guide_ic_5.gif');width:50px;height:50px; }
+.slide_6 { background:url('/../../images/etc/guide_ic_6.gif');width:50px;height:50px; }
+
+li.current div.slide_1 { background:url('/../../images/etc/guide_ic_1_on.gif') !important; }
+li.current div.slide_2 { background:url('/../../images/etc/guide_ic_2_on.gif') !important; }
+li.current div.slide_3 { background:url('/../../images/etc/guide_ic_3_on.gif') !important; }
+li.current div.slide_4 { background:url('/../../images/etc/guide_ic_4_on.gif') !important; }
+li.current div.slide_5 { background:url('/../../images/etc/guide_ic_5_on.gif') !important; }
+li.current div.slide_6 { background:url('/../../images/etc/guide_ic_6_on.gif') !important; }
+
+li.current p { color:#fd3b7b;}

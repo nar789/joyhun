@@ -1,0 +1,127 @@
+
+/* 선물상점 */
+
+.gift_shop_text { position: absolute; width: 100%; text-align: center; margin-top:-47px; }
+.gift_shop_text b { font-size:16px; }
+.gift_shop_text b:first-child{ color:#fff; }
+.posi_rel img { width:100%; }
+#gift_list01 a img { width:100%; } 
+
+
+/* 선물함 */
+
+#recv_gift b{ color:#ea3c3c;}
+.gift_box_tab { float:left;width:50%; height:40px; text-align:center; line-height:40px; border:1px solid #cccccc; border-left:none; margin-left:-1px; border-top:none; cursor:pointer;}
+.gift_box_tab b{ color:#333; }
+.gift_box_btn { width:18%; float:right; }
+.gift_box_btn img { width:100%; }
+ 
+span:nth-child(1){ color:#02bae2 }
+span:nth-child(2){ color:#666666 }
+span:nth-child(3){ color:#ea3c3c }
+.gift_box_btn b { color:#666; }
+.gift_box_txt { width:70%; line-height:16px; display:inline-block; }
+.gift_box_txt_second { line-height:16px; }
+
+#first_gift_box { display:block; }
+#last_gift_box { display:none; }
+
+
+
+/* 선물 리스트 */
+
+.pos_fixed { position:relative; }
+.pos_fixed img { width:100%; }
+.padding_5 b { color:#fe1527; }
+.gift_list_first {position:relative; width:100%; height:450px; overflow:hidden; padding-top:10px; overflow-x:hidden; overflow-y:scroll;}
+td > div > img { width:100%; }
+
+.gift_list_first ul{list-style:none;}
+.gift_list_first li{width:50%; float:left;}
+
+.m_gift_box{border:solid 1px #E5E5E5; position:relative; width:100%; height:220px;}
+.m_gift_box img{width:100%;}
+.m_gift_box div:nth-child(1){position:relative; width:90%; height:80%; text-align:center; margin:auto;}
+.m_gift_box div:nth-child(2){position:relative; width:100%; height:7%; text-align:center; font-weight:bold; padding-top:3%; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.m_gift_box div:nth-child(3){position:relative; width:100%; height:7%; text-align:center; font-weight:bold; padding-top:3%;}
+
+
+/* 선물 리스트 상세보기 */
+
+.gift_datail_first_box { position:relative; width:100%;}
+.gift_img_box { padding:20px 50px 0px 50px; }
+.margin_auto > img { width:80%;}
+.text-center.margin_top_8 img { width:30%; } 
+.gift_list_bd { border-top:2px solid #c3c3c3; margin-top:30px; }
+.gift_list_bd_top { border-top:1px solid #dcdcdc; }
+.gift_list_point { height:40px; line-height:40px; margin-left:10px; margin-right:10px; }
+.gift_list_point div { color:#02bae2; }
+.gift_list_point div b:last-child{ float:right; }
+.gift_list_text_box { background:#f2f2f2; padding:20px 10px 40px 10px; }
+.gift_list_text_box img { margin-right:5px; vertical-align: middle; }
+.gift_list_text_box b { font-size:14px; }
+.gift_list_text_box_top { margin-left:5px; line-height:18px; }
+.gift_list_text_box_top p { color:#666; }
+.gift_list_text_box_middle { margin-top:20px; margin-left:5px; line-height:18px; }
+.gift_list_text_box_middle p { color:#666; }
+.gift_list_text_box_bottom {line-height:18px; padding-top:17px;} 
+.gift_list_text_box_bottom img { margin-right:5px; vertical-align: middle; }
+.gift_list_text_box_bottom b { font-size:14px; }
+.gift_list_text_box_bottom div { margin-left:5px; }
+.gift_list_text_box_bottom p { color:#666; }
+.gift_btn_box { text-align:center; height:130px; }
+.gift_btn_box img { width:55%; }
+
+.gift_contents_1{border:0; background-color:#F2F2F2; width:100%; height:200px; margin-top:10px; overflow:hidden;}
+.gift_contents_2{border:0; background-color:#F2F2F2; width:100%; height:50px; margin-top:10px; overflow:hidden;}
+
+.gift_req_btn{width:50%; height:35px; font-weight:bold; border:0; background-color:#D53B3B; color:#FFF;}
+
+/* 선물 보내기 확인 */
+.gift_confirm_contents{position:relative; width:100%; height:300px;}
+.gift_confirm_contents .tit_img{position:relative; width:95%; height:80%; margin:auto; margin-top:3%; background-color:#F3F0EB;}
+.gift_confirm_contents .tit_img .tit{position:relative; width:100%; height:10%; text-align:center; font-weight:bold; padding-top:3%; font-size:1.3em;}
+.gift_confirm_contents .tit_img .img{position:relative; width:100%; height:50%; padding-top:3%;}
+.gift_confirm_contents .tit_img .img div:nth-child(1){border:solid 3px #C2BBB3; position:relative; width:40%; height:100%; margin:auto; border-radius:10px; background-color:#FFF; text-align:center;}
+.gift_confirm_contents .tit_img .img img{width:80%; height:100%;}
+.gift_confirm_contents .tit_img .alrim{position:relative; width:100%; height:20%; padding-top:3%; text-align:center; font-weight:bold; font-size:1.1em; line-height:20px;}
+.gift_confirm_contents .btn_box{position:relative; width:95%; height:20%; margin:auto;}
+.gift_confirm_contents .btn_box .box_1{position:relative; width:50%; height:100%; text-align:center;}
+.gift_confirm_contents .btn_box .box_1 input{border:0; outline:0; width:80%; height:70%; margin-top:8px; border-radius:20px; font-size:1.2em; background-color:#E15148; color:#FFF;}
+.gift_confirm_contents .btn_box .box_2{position:absolute; width:50%; height:100%; top:0%; left:50%; text-align:center;}
+.gift_confirm_contents .btn_box .box_2 input{border:0; outline:0; width:80%; height:70%; margin-top:8px; border-radius:20px; font-size:1.2em; background-color:#507898; color:#FFF;}
+
+
+@media all and (max-width:320px){		/* 작은화면용 (ex.Galaxy S2,S1, iPhone 4, iPhone5)*/
+
+.gift_shop_text { margin-top:-38px; }
+.gift_shop_text b { font-size:14px; }
+
+}
+
+
+@media all and (min-width:360px) and (max-width:413px){     /* 중간화면용 (ex.iPhone6, Gal Note4)*/
+
+.gift_shop_text { margin-top:-43px; }
+
+}
+
+
+@media all and (min-width:414px) and (max-width:599px){		/* 작은화면의 가로모드 (ex.Galaxy S2,S1, iPhone 4, iPhone5) (orientation:landscape) */
+
+
+
+@media all and (min-width:600px){	/* width : 600넘어가면, 가로모드 (orientation:landscape) */
+
+
+.gift_box_tab { height: 50px; line-height:50px; cursor:pointer;}
+.gift_box_tab b{ font-size:16px; }
+.gift_box_btn img { width:55%;}
+tr > td > div > b { font-size:20px; }
+.gift_list_first { padding-top:90px; }
+.gift_img_box div b { font-size:22px; }
+.gift_list_text_box_top p { color:#666; }
+
+}
+
+

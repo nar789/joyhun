@@ -1,0 +1,139 @@
+.login_pop_content {
+	border-top:1px solid #333333;
+}
+
+.log_pop_tr {
+	border-bottom:1px solid #e5e5e5;
+}
+
+.log_pop1_td1 {
+	width:100px;
+	height:40px;
+	display:inline-block;
+	border-left:1px solid #e5e5e5;
+	border-right:1px solid #e5e5e5;
+	background:#f4f4f6;
+	line-height:40px;
+	padding-left:14px;
+	color:#333333;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.log_pop1_td2{
+	width:426px;
+	height:40px;
+	display:inline;
+}
+
+.log_pop1_td2 > select {
+	width:233px;
+	height:22px;
+	border:1px solid #cccccc;
+	margin-left:8px;
+	padding-left:5px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: url(/images/member/regi_arrow.gif) no-repeat 98% 50%;
+	padding-right:18px;
+	font-size:12px;
+	color:#666666;
+}
+
+.log_pop1_td2 > select::-ms-expand { 
+	display: none;
+}
+
+.log_pop2_td1 {
+	width:100px;
+	height:130px;
+	display:inline-block;
+	border-left:1px solid #e5e5e5;
+	border-right:1px solid #e5e5e5;
+	background:#f4f4f6;
+	line-height:40px;
+	padding-left:14px;
+	color:#333333;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.log_pop2_td2 {
+	scrollbar-face-color:#fff;
+	scrollbar-arrow-color:#919191;
+	scrollbar-darkshadow-color:#fff;
+	scrollbar-heighlight-color:#fff;
+	scrollbar-shadow-color:#fff;
+
+	width:426px;
+	height:130px;
+	display:inline;
+}
+
+.log_pop2_td2 > textarea {
+	width:381px !important;
+	height:107px !important;
+	border:1px solid #cccccc !important;
+	position:absolute;
+	font-size:12px;
+	color:#666666;
+	margin-left:8px;
+	margin-top:9px;
+	word-break:break-all;
+	padding-left:7px;
+	padding-top:5px;
+	resize:none;
+}
+
+.log_pop_sub {
+	width:80px;
+	height:37px;
+	background:#ed4949;
+	text-align:center;
+	line-height:37px;
+	border:none;
+	border-radius:4px;
+	font-size:14px;
+	color:#ffffff;
+	margin-top:19px;
+	cursor:pointer;
+}
+
+
+/* 모바일용 인사말 css */
+
+.log_pop1_td1_m {
+	width:20%;
+	height:100px;
+	display:inline-block;
+	border-left:1px solid #e5e5e5;
+	border-right:1px solid #e5e5e5;
+	background:#f4f4f6;
+	line-height:100px;
+	text-align:center;
+	color:#333333;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.log_pop1_td2_m{
+	width:80%;
+	height:100px;
+	display:inline;
+}
+
+.log_pop1_td2_m > textarea {
+	width:67% !important;
+	height:89px !important;
+	border:1px solid #cccccc !important;
+	position:absolute;
+	font-size:12px;
+	color:#666666;
+	padding-top:10px;
+	padding-left:10px;
+	word-break:break-all;
+
+
+	resize:none;
+}

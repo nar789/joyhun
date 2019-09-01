@@ -1,0 +1,71 @@
+
+
+.guide_area { 
+	border:1px solid #e7e7e7;
+	height:318px;
+	margin-top:14px;
+}
+
+.guide_box {
+	width:479px;
+	height:50px;
+	float:left;
+}
+
+.guide_title_01 {
+	width:479px; 
+	height:50px; 
+	background-color:#199ae5;
+	line-height:50px;
+	text-indent:20px;
+}
+
+.guide_title_02 {
+	width:479px; 
+	height:50px; 
+	background-color:#0075ba; 
+	line-height:50px;
+	text-indent:20px
+}
+
+.guide_img {
+	display:inline-block;
+	width:243px;
+}
+
+.guide_img img {
+	margin-top:44px; 
+	margin-left:40px;
+}
+
+.guide_bg {
+	height:268px;
+	background:url('/../../images/etc/chat_right_bg.gif');
+}
+
+.guide_text_01 {
+	font-size:38px; 
+	color:#00a2ff;
+	margin-bottom:9px;
+	margin-top:54px;
+}
+
+.guide_text_02 {
+	font-size:38px; 
+	color:#0075ba; 
+	margin-bottom:9px;
+	margin-top:54px;
+}
+
+.guide_num{
+	width:16px; 
+	height:16px; 
+	background:#00a2ff; 
+	border-radius:16px; 
+	color:#f9f3f5;
+	font-weight:bold; 
+	text-align:center;
+	line-height:16px; 
+	display:inline-block;
+	margin-right:10px;
+}

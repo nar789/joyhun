@@ -1,0 +1,43 @@
+.special_bg {
+	width:420px;
+	height:430px;
+	background-image: url('/images/layer_popup/special_bg.gif');
+}
+
+.special_text_bg {
+	height:55px;
+	background-image: url('/images/layer_popup/special_text_bg.gif');
+	line-height:68px;
+}
+
+.special_main_bg {
+	width:380px;
+	height:380px; 
+	background:#fff;
+	margin:auto;
+	border-radius:4px;
+}
+
+.special_main_box {
+	width:339px; 
+	margin:auto; 
+	padding-top:15px;
+}
+
+.special_img_box { 
+	float:left;
+	width:108px; 
+	height:136px; 
+	border:1px solid #b1b1b1;
+}
+
+table tr:first-child { float:right; width:219px; height:23px; border-bottom:1px solid #eaeaea; line-height:16px; }
+table tr { float:right; width:219px; height:27px; border-bottom:1px solid #eaeaea; line-height:27px; }
+table tr td:first-child { width:75px;padding-left:10px; }
+table tr td:last-child { color:#666;width:115px;padding-left:10px; }
+table tr td img { margin-right:5px; }
+
+div > b:first-child { color:#ff4768; }
+div > b:last-child { color:#666 }
+
+.girl_icon { border:none !important; cursor:pointer; }

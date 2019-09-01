@@ -1,0 +1,490 @@
+
+.area_age_tab_menu {
+	display:inline-block;
+	border:1px solid #dedede;
+	padding-left:29px;
+	padding-right:30px;
+	height:38px;
+}
+
+.area_age_tab_on {
+	height:39px;
+	color:#333;
+	font-weight:bold;
+	background:#fff5a3 !important;
+	cursor:pointer;
+	border-bottom:1px solid #fff5a3;
+	border-top-left-radius:6px;
+}
+
+.area_age_tab_content {
+	background:#fff5a3;
+	border:1px solid #dedede;
+	margin-top:-1px;
+	width:716px;
+	height:253px;
+	border-top-right-radius:6px;
+}
+
+.area_age_tab_box {
+	width:698px;
+	height:234px;
+	margin-top:9px;
+	margin-left:9px;
+}
+
+.area_age_tab_top {
+	height:163px;
+	background:#fff;
+	padding-top:2px;
+	padding-left:3px;
+}
+
+.area_age_tab_top > img {
+	border:1px solid #4f80e4;
+	border-radius:6px;
+	margin-left:5px;
+	margin-top:8px;
+	cursor:pointer;
+}
+
+.area_age_tab_bottom {
+	height:55px;
+	background:#f1f1f1;
+	padding-top:16px;
+	padding-left:3px;
+}
+
+.area_age_tab_bottom > img {
+	margin-left:5px;
+	cursor:pointer;
+	border:1px solid #29bddd;
+	border-radius:6px;
+}
+
+.live_btn_area {
+	width:165px;
+	height:45px;
+	display:inline-block;
+	background:#54b1f2;
+	margin-left:2px;
+	border:1px solid #4f80e4;
+	border-radius:6px;
+	margin-top:8px;
+	cursor:pointer;
+	color:#fff;
+}
+
+.live_btn_on {
+	background:#185cb7 !important;
+}
+
+.live_btn_area > img {
+	vertical-align:middle;
+	margin-left:1px;
+}
+
+.live_btn_area > p {
+	padding-left:3px;
+	font-size:14px;
+	font-weight:bold;
+	display:inline-block;
+	margin-top:14px;
+}
+
+
+/************************************** 음악채팅 START *************************************/
+
+
+.music_top_left_title {
+	width:240px;
+	height:73px
+}
+
+.music_top_left_content {
+	width:221px;
+	height:361px;
+	border:3px solid #dcdcdc;
+	padding-top:16px;
+	padding-left:7px;
+}
+
+.music_top_left_list {
+	width:212px;
+	height:77px;
+}
+
+.border_dotted {
+	width:692px;
+	height:1px;
+	background-image: linear-gradient(to right, #e5e5e5 55%,  rgba(255,255,255,0) 0%);
+	background-position:bottom;
+	background-size:4px 1px;
+	background-repeat:repeat-x;
+	margin:auto;
+}
+
+.music_top_left_text {
+	width:132px;
+	display:inline-block;
+	vertical-align:top;
+}
+
+.music_top_left_content > div:nth-child(3),
+.music_top_left_content > div:nth-child(5),
+.music_top_left_content > div:nth-child(7){
+	margin-top:17px;
+}
+
+
+.music_banner {
+	border:1px solid #dcdcdc;
+	width:474px;
+	height:454px;
+	margin-left:8px;
+}
+
+.music_banner_box {
+	width:474px;
+	height:273px;
+	padding-top:16px;
+	background:url('/../../images/chatting/chatting_bottom.gif');
+}
+
+.music_banner_ic {
+	width:140px;
+	height:40px;
+	border-radius:4px;
+	background:#fff;
+	font-size:14px;
+	margin-top:10px;
+	margin-left:7px;
+}
+
+.music_textbox {
+	width:163px;
+	height:35px;
+	border:1px solid #ea3e3e;
+	border-radius:4px;
+	padding-left:9px;
+}
+.music_textbox > input[type=text]:-ms-input-placeholder { color: #999; }
+
+.music_photo {
+	width:143px;
+	height:144px;
+	border:1px solid #dfe1e0;
+	margin:auto;
+	margin-top:8px;
+	text-align:center;
+	background:#fff;
+}
+
+.music_photo > img {
+	width:144px;
+	height:143px;
+}
+
+.music_photo > a > span {
+	color:#999999;
+	font-size:11px;
+	text-decoration:underline;
+	line-height:143px;
+}
+
+.music_oneshot {
+	background:#ffeff0;
+	height:26px;
+	margin-top:8px;
+	padding-top:6px;
+	text-align:center;
+}
+
+.music_oneshot_text {
+	display:inline-block;
+	vertical-align:top;
+	color:#1e9cc8;
+	font-weight:900;
+	padding-top:4px;
+	padding-right:8px;
+}
+
+.live_music_box {
+	width:712px;
+	height:187px;
+	border:3px solid #8b4e21;
+	margin-top:8px;
+	padding-top:5px;
+}
+
+.live_music_item {
+	width:686px;
+	height:28px;
+	border-radius:100px;
+	margin:auto;
+	text-align:center;
+	font-size:14px;
+	font-weight:bold;
+	color:#fff;
+	line-height:28px;
+}
+.live_music_item {background: #e99834; /* Old browsers */}
+.live_music_item {background: -moz-linear-gradient(top,  #e99834 0%, #e99834 50%, #e99834 51%, #e99834 100%); /* FF3.6-15 */}
+.live_music_item {background: -webkit-linear-gradient(top,  #e99834 0%,#e99834 50%,#e99834 51%,#e99834 100%); /* Chrome10-25,Safari5.1-6 */}
+.live_music_item {background: linear-gradient(to bottom,  #e99834 0%,#e99834 50%,#e99834 51%,#e99834 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */}
+/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e99834', endColorstr='#e99834',GradientType=0 ); */ /* IE6-9 */
+
+.live_music_content {
+	height:154px;
+	margin-top:5px;
+}
+
+.live_music_list {
+	width:237px;
+	height:77px;
+	display:inline-block;
+	vertical-align:top;
+}
+
+.live_music_content > div:nth-child(2),
+.live_music_content > div:nth-child(3),
+.live_music_content > div:nth-child(6),
+.live_music_content > div:nth-child(7){
+	margin-left:-3px;
+}
+
+.live_music_list_img {	
+	border:1px solid #e99834;
+	margin-top:15px;
+	margin-left:13px;
+	display:inline-block;
+}
+
+.live_music_item_btn {
+	width:60px;
+	height:22px;
+	background:#fafafa;
+	margin-top:6px;
+	color:#999;
+	font-weight:bold;
+}
+
+.music_soft_box {
+	border:1px solid #dcdcdc;
+	width:232px;
+	height:143px;
+	margin-top:8px;
+	display:inline-block;
+	vertical-align:top;
+}
+
+.music_noti_area {
+	width:474px;
+	height:143px;
+	border:1px solid #dcdcdc;
+	margin-top:8px;
+	margin-left:4px;
+	display:inline-block;
+}
+
+.music_noti_ul {
+	list-style-type:disc;
+	line-height:20px;
+}
+
+.music_noti_ul > li {
+	list-style:inherit;
+}
+
+
+/* ********************** 채팅상대찾기 START ********************** */
+
+.wanna_age_box {
+	display:inline-block;
+}
+
+.wanna_age_box label {
+	cursor: pointer;
+	position: absolute;
+	width: 11px;
+	height: 11px;
+	border-radius: 11px;
+	background:#ffffff;
+	border:1px solid #919191;
+	margin-top:17px;
+	display:inline-block;
+}
+
+.wanna_age_box label:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	content: '';
+	position: absolute;
+	width: 7px;
+	height: 7px;
+	border-radius:7px;
+	background: #ff7878;
+	top:2px;
+	left:2px;
+}
+
+.wanna_age_box input[type="radio"]:checked + label:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.wanna_age_box input[type="radio"]{
+	/*visibility: hidden;*/
+	display:none;
+}
+
+.wanna_age_box > span{padding-left:17px;margin-right:6px;}
+
+
+.oneclick_find_checkarea label {
+	cursor: pointer;
+	position: absolute;
+	width: 11px;
+	height: 11px;
+	border-radius: 2px;
+	background:#ffffff;
+	border:1px solid #919191;
+	margin-top:1px;
+}
+
+.oneclick_find_checkarea label:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	content: '';
+	position: absolute;
+	width: 9px;
+	height: 5px;
+	background: transparent;
+	border: 3px solid #ff7878;
+	border-top: none;
+	border-right: none;
+
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.oneclick_find_checkarea label:hover::after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: alpha(opacity=30);
+	opacity: 0.3;
+}
+
+.oneclick_find_checkarea input[type=checkbox]:checked + label:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.oneclick_find_checkarea input[type=checkbox] {
+	/* visibility: hidden; */
+	display:none;
+}
+
+.oneclick_find_text {
+	color:#666666;
+	font-size:12px;
+	padding-left:18px;
+}
+
+
+.wanna_area_box {
+	width:80px;	 
+	height:34px;
+    padding: 0;
+    border-radius:4px;
+    overflow: hidden;
+    background-color: #fff;
+    background: #fff url('/images/arrow_btn.gif') no-repeat 90% 50%;
+	border:1px solid #dcdcdc;
+	vertical-align:middle;
+}
+
+.wanna_area_box > select {
+	color:#666666;
+	font-size:12px;
+	padding-left:5px;
+	width:80px;
+	height:34px;
+	position:absolute;
+	border:none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+}
+.wanna_area_box > select::-ms-expand { display:none; }
+
+
+.oneclick_area {
+	width:242px;
+	height:255px;
+	background:#a0b1c1;
+	float:left;
+}
+
+.member_detail_find_area {
+	width:476px;
+	height:255px;
+	background:#bcd7ed;
+	float:right;
+}
+
+.chat_member_find_title {
+	color:#042e55;
+	font-size:14px;
+	font-weight:bold;
+	height:25px;
+}
+
+.chat_member_find_box {
+	height:200px;
+	background:#eceff4;
+	border-radius:6px;
+}
+
+.chat_member_find_btn {
+	width:62px;
+	height:36px;
+}
+
+.member_detail_tr_1 {
+	height:46px;border-bottom:1px solid #dedede;line-height:46px;
+}
+
+.member_detail_tr_2 {
+	height:53px;border-bottom:1px solid #dedede;line-height:53px;
+}
+
+/* 채팅상대찾기 END */
+
+
+/* 5분거리 칮구찾기 */
+
+.town_area { height:188px;background:#fff5a3;padding:10px;}
+.town_box { width:172px;height:143px;background:#fff; }
+
+/* 5분거리 칮구찾기 END */
+
+/* 음악채팅 메인 */
+
+.music_chat_main_content_box{ height:179px; border: 3px solid #dcdcdc; background:#f8f8f8; margin-top:8px; }
+.music_chat_list { width:175px; height:175px; display:inline-block;} 
+.music_main_btn {position: absolute; margin-left: 260px; margin-top: -85px;}
+.title_color_333 > a > b { color:#333; font-size:14px; }
+.title_color_333 > p { color:#999; margin-top:5px; }
+
+
+.music_frame{width:0px;height:0px;}

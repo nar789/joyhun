@@ -1,0 +1,90 @@
+
+
+
+.bg_fff { padding-bottom:20px; }
+
+.dor_info { width:95%;height:75px;margin:0 auto; }
+.dor_info td:first-child > img { width:60%; }
+.dor_info td:last-child { line-height:22px; }
+.dor_info td:last-child > p:first-child { font-size:15px; }
+
+.mobile_border_table td:last-child { width:70%;text-indent:5px; }
+
+input.m_checkbox + label,input.m_checkbox:checked + label { background-position:left center; }
+
+.agree_box { margin-top:20px; }
+.agree_box div:last-child { margin-top:10px; }
+.agree_area { border:1px solid #999;height:40px;line-height:40px;margin:0 auto; }
+.agree_area table tr td:last-child { width:20%;text-align:right;color:#999 }
+
+.mobile_border_table { margin-top:20px; }
+
+.dorm_name { border:1px solid #ccc;height:28px;width:60%;border-radius:0px; }
+
+.dorm_bir { height:28px; }
+
+
+.mb_check_area { text-align:center;margin-top:10px; }
+.mb_check_area > input[type=button] { width:40%;height:37px;font-size:14px;background:#f36523;border:none;border-radius: 4px;color:#fff; }
+
+
+
+#dormancy_show input[type=password] { border:1px solid #ccc;height:28px;width:60%;border-radius:0px; }
+
+/*############################################################################################################################################# */
+
+@media all and (max-width:320px){		/* 작은화면용 (ex.Galaxy S2,S1, iPhone 4, iPhone5)*/
+
+	.dor_info { height:70px; }
+	
+	.dor_info td:last-child > p:first-child { font-size:13px; }
+	.dor_info td:last-child > p:last-child, .dor_info td:last-child > p:last-child > span { font-size:10px; }
+
+	.dor_info td:last-child { line-height:18px; }
+
+	input.m_checkbox + label, input.m_checkbox:checked + label { font-size:11px; }
+	.agree_area table tr td:last-child { font-size:11px; }
+
+}
+
+@media all and (min-width:430px) and (max-width:599px){		/* 작은화면의 가로모드 (ex.Galaxy S2,S1, iPhone 4, iPhone5) (orientation:landscape) */
+
+	.dor_info { height:90px; }
+	.dor_info td:last-child > p:first-child { font-size:18px; }
+	.dor_info td:last-child > p:last-child, .dor_info td:last-child > p:last-child > span { font-size:14px; }
+	.dor_info td:last-child { line-height:28px; }
+
+	.agree_area { height:55px;margin-top:30px; }
+	.agree_area table { line-height: 55px; }
+	input.m_checkbox + label, input.m_checkbox:checked + label { padding:0 0 0 26px; background-size:20px; font-size:16px; }
+	.agree_area table tr td:last-child { font-size:16px; }
+
+	.mobile_border_table { margin-top:30px; }
+	.mobile_border_table tr td:first-child { font-size:16px;height:45px; }
+
+	.mb_check_area { margin-top:20px; }
+	.mb_check_area > input[type=button] { font-size:16px; height:45px; }
+}
+
+@media all and (min-width:600px){	/* width:600이상 or 가로모드 (orientation:landscape) */
+
+	.bg_fff { padding-bottom:40px; }
+
+	.dor_info { height:120px; }
+	.dor_info td:last-child > p:first-child { font-size:22px; }
+	.dor_info td:last-child > p:last-child, .dor_info td:last-child > p:last-child > span { font-size:18px; }
+	.dor_info td:last-child { line-height:28px; }
+
+	.agree_area { height:60px;margin-top:30px; }
+	.agree_area table { line-height: 55px; }
+	input.m_checkbox + label, input.m_checkbox:checked + label { padding:0 0 0 26px; background-size:20px; font-size:18px; }
+	.agree_area table tr td:last-child { font-size:18px; }
+
+	.mobile_border_table { margin-top:30px; }
+	.mobile_border_table tr td:first-child { font-size:16px;height:45px; }
+
+	.mb_check_area { margin-top:25px; }
+	.mb_check_area > input[type=button] { font-size:18px; height:45px; }
+
+
+}

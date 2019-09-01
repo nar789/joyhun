@@ -1,0 +1,91 @@
+
+#wrap {
+	width:960px; 
+	margin : 0 auto; 
+	color:#fff;
+}
+
+#wrap div.text { 
+	border-radius:14px;
+	min-height:150px;
+	color:#000;
+	font-size:14px
+}
+
+.container { width:1420px !important; }
+.slide { width:1420px; }
+
+.main_banner_area { 
+	width:100%; 
+	background:#fff5ed;
+	height:439px; 
+}
+
+.main_gradation { 
+	display:block;
+	position:absolute;
+	z-index:2;
+}
+
+.main_banner_left_ic { 
+	position:absolute;
+	top:195px;
+	z-index:3; 
+	margin-left:200px; 
+}
+
+.main_banner_right_ic {
+	position:absolute;
+	right:0; 
+	top:195px;
+	z-index:3;
+	margin-right:200px;
+}
+
+
+
+/* PC리스트 */
+
+.favorites {
+	float:right;
+	font-size: 16px;
+	margin-top:5px;
+	margin-right:19px;
+}
+
+.favorites b { 
+    font-size: 14px;
+	color:#db2452;
+	font-weight:bold;
+}
+
+.favorites span { 
+	font-size:20px; 
+	color:#db2452;
+}
+
+.tabMenu ul li a { 
+	font-size:16px; 
+	font-weight:bold; 
+	color:#db2452; 
+}
+
+.tab { 
+	background:#fff; 
+	overflow:hidden; 
+}
+
+.tab li.on { background:#db2452; }
+.on a { color:#fff !important; }
+
+.tab_con { 
+	width: 720px;
+	margin: auto; 
+}
+
+.tab_content{
+	display:none; 
+	background:#fff;
+}
+
+.login_btn { vertical-align: -webkit-baseline-middle; } 

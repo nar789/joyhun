@@ -1,0 +1,29 @@
+
+
+/************************************************* 여자남자 아이콘 ************************************************************/
+
+.girl_icon {
+	background:#ffe7eb;
+	text-align:center;
+	display:inline-block;
+	border:1px solid #dfe1e0;
+	vertical-align:top;
+}
+
+.man_icon {
+	background:#e7f0ff;
+	text-align:center;
+	display:inline-block;
+	border:1px solid #dfe1e0;
+	vertical-align:top;
+}
+
+.img_none_icon {
+	height:70%;
+	max-width:auto;
+	position:relative;
+	top:15%;
+}
+
+/************************************************* BUTTN TEXT END ************************************************************/
+

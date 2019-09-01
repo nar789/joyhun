@@ -1,0 +1,56 @@
+
+#blind_slider { width: 100%;height: 197px;margin: 0 auto;position: relative;overflow: hidden;border: none;background: none; }
+#blind_slider ul { width:99999px;height:190px;position:absolute; top:0; left:0; overflow:hidden; margin-top:10px; }
+#blind_slider ul li { float:left; width:100%;height:190px;font-size:14px;text-align:center;display:table; }
+#blind_slider ul li > div.blind_thum > img { border-radius:6px;max-width:100%; }
+
+.blind_thum { height:185px;display:table-cell;vertical-align:middle; }
+
+.btn_area { text-align:center; overflow:hidden;position:absolute;margin-top:-120px;width:90%;margin-top:-110px; }
+.btn_area .btn_prev { float:left; }
+.btn_area .btn_next { float:right; }
+.btn_area .btn_prev img, .btn_area .btn_next img { width:40%; }
+
+.paging { background:#fefefe;padding-bottom:10px;text-align:center; overflow:hidden; }
+.paging .btn_page { display:inline-block; width:13px; height:13px; border-radius:13px; margin:3px; font-size:0px; line-height:0; text-indent:-9999px; background:#dbdbdb; }
+.paging .btn_page.on { background:#8f8f8f; border-radius:13px; }
+
+
+.m_profile_table_area { height:180px; }
+.mobile_border_table tr td:first-child { width:25%; }
+.mobile_border_table tr td:last-child { text-indent:10px;color:#666; }
+
+
+
+
+
+
+/*############################################################################################################################################# */
+
+@media all and (max-width:320px){		/* 작은화면용 (ex.Galaxy S2,S1, iPhone 4, iPhone5)*/
+	
+}
+
+@media all and (min-width:430px) and (max-width:599px){		/* 작은화면의 가로모드 (ex.Galaxy S2,S1, iPhone 4, iPhone5) (orientation:landscape) */
+
+	.btn_area { margin-top:-115px; }
+
+}
+
+@media all and (min-width:600px){	/* width:600이상 or 가로모드 (orientation:landscape) */
+
+	#blind_slider { height:235px; }
+	
+	.btn_area { width:90%;max-width:650px;margin-top:-140px; }
+
+	.paging .btn_page { width:20px; height:20px; border-radius:20px; margin:3px; }
+	.paging .btn_page.on { background:#8f8f8f; border-radius:20px; }
+
+	.m_profile_textarea { height:90px; }
+	.height_100 { height: 135px !important; }
+
+	.m_profile_table_area { height:260px; }
+	.mobile_border_table tr td:first-child { width:25%; }
+	.mobile_border_table tr td:last-child { text-indent:10px;color:#666; }
+
+}

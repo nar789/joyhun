@@ -1,0 +1,285 @@
+
+.make_friend_bg {
+	background:url(/images/friend/make_friend_top.gif);
+	width:100%;
+	height:208px;
+}
+
+.make_pr_bg {
+	background:url(/images/friend/make_my_pr.gif);
+	width:100%;
+	height:144px;
+	margin-top:10px;
+}
+
+.make_friend_list {
+	display:inline-block;
+	width:278px;
+	background:#f5fdff;
+	border:1px solid #d5f7ff;
+	min-height:31px;
+	word-break:break-all;
+	border-radius:4px;
+	margin-top:19px;
+	margin-right:7px;
+	padding:2px 9px;
+	color:#666;
+}
+
+.friend_add {
+	width:262px;
+	height:114px;
+	margin-top:14px;
+	margin-left:199px;
+	position:absolute;
+}
+
+.friend_add_text {
+	border:1px solid #dcdcdc;
+	border-radius:4px;
+	margin-top:1px;
+	margin-bottom:1px;
+	padding-left:9px;
+}
+
+.friend_add_text::-webkit-input-placeholder { color:#999999; font-weight:bold;}
+.friend_add_text:-ms-input-placeholder { color:#999999; opacity:1; font-weight:bold; }
+.friend_add_text::-moz-placeholder { color:#999999; opacity:1; font-weight:bold; }
+.friend_add_text:-moz-placeholder { color:#999999; opacity:1; font-weight:bold; }
+
+.friend_id {
+	width:174px;height:34px;
+}
+
+.friend_memo {
+	width:173px;height:34px;
+}
+
+.friend_ok_btn {
+	width:41px;height:36px;margin-left:-1px;
+	color:#333;
+}
+
+.friend_select {
+	width:185px;
+	height:36px;
+	margin-top:1px;
+	margin-bottom:1px;
+	font-weight:bold;
+}
+
+.select_box_border > select { background-position: 97% 50%;padding-left:8px; }
+
+.friend_add_btn {
+	width:71px;
+	height:37px;
+	border-radius:4px;
+}
+
+.friend_scroll {
+	width:190px;
+	height:109px;
+	margin-top:14px;
+	margin-left:509px;
+	position:absolute;
+	overflow:hidden;
+}
+
+.friend_scroll .friend_scroll_list:last-child {
+	padding-bottom:5px;
+}
+
+.friend_scroll_list {
+	width:173px;
+	height:26px;
+}
+
+.friend_scroll_id {
+	display:inline-block;
+	width:108px;
+	vertical-align:top;
+	color:#666;
+	line-height:26px;
+}
+
+.friend_scroll_btn {
+	width:61px;
+	height:22px;
+}
+
+.make_pr_title {
+	color:#333;
+	font-weight:bold;
+	font-size:20px;
+	padding-left:24px;
+	padding-top:18px;
+	display:inline-block;
+	vertical-align:bottom;
+}
+
+.make_pr_text {
+	width:468px;
+	height:45px;
+	border:1px solid #dcdcdc;
+	border-right:none;
+	border-top-left-radius:4px;
+	resize:none;
+	margin-top:19px;
+	margin-left:19px;
+	padding:8px;
+	vertical-align:top;
+}
+
+.make_pr_text_cnt {
+	position:absolute;
+	width:476px;
+	height:20px;
+	line-height:20px;
+	text-align:right;
+	margin-left:19px;
+	margin-top:-21px;
+	border:1px solid #dcdcdc;
+	border-top:none;
+	border-right:none;
+	border-bottom-left-radius:4px;
+	color:#ccc;
+	padding-right:8px;
+}
+
+.make_pr_btn {
+	width:72px;
+	height:63px;
+	margin-left:-3px;
+	margin-top:19px;
+	border-top-right-radius:4px;
+	border-bottom-right-radius:4px;
+}
+
+.make_friend_title { margin-left:199px;padding-top:18px; }
+.make_friend_left_box { display:inline-block;width:270px;line-height:18px; }
+.make_friend_right_box { display:inline-block;margin-left:28px;line-height:18px; }
+
+.make_friend_left_box > p ,
+.make_friend_right_box > p { color:#e7aac5; }
+
+/* 앤만들기 */
+
+.anne_content {
+	width:447px;
+	vertical-align:top;
+	display:inline-block;
+	margin-top:30px;
+	padding-bottom:20px;
+}
+
+.make_anne_top {
+	height:206px;
+	border:1px solid #dcdcdc;
+}
+
+.make_anne_area {
+	background:url('/images/friend/make_anne.gif');
+	height:206px;
+}
+
+.make_anne_box { 
+	padding-top:72px;
+	padding-left:285px;
+}
+.anne_thumb {
+	float:left;
+	width:70px;
+	margin-left:16px;
+	padding-top:11px;
+}
+
+.anne_thumb > img {
+	width:70px;height:51px;border:1px solid #dfe1e0;
+}
+
+
+
+/** 공감 POLL 투표 **/
+
+.poll_top_left { background:url('/../../../images/friend/vote_poll_top.gif');width:139px;height:208px;float:left;text-align:center; }
+.poll_top_left > p:first-child { color:#fff; font-size:13px; font-weight:900; margin-top:16px; }
+
+.poll_title { color:#fff683; font-size:25px; font-weight:900; }
+.poll_title2 { color:#fff683; font-size:27px; font-weight:normal; }
+
+.poll_top_right { float:left;width:578px;height:206px;border:1px solid #dcdcdc;border-left:none;background:#f6f5e5; }
+
+.vote_box { background:#fff;width:518px;height:122px;padding:10px 10px 10px 30px;margin-top:7px; }
+.vote_btn { height:53px;line-height:53px;width:85px;padding-left:26px;margin-top:68px; }
+
+.vote_list div label { display:inline !important; }
+.vote_list div span { color:#333; }
+.vote_list div { margin-top:3px }
+
+.poll_table { margin-top:20px;border-top:2px solid #ea3c3c;border-bottom:1px solid #ececec;height:40px; }
+.poll_table > li { display:inline-block; color:#333; font-weight:bold; line-height:40px;text-align:center; }
+
+.poll_tr { height:40px;border-bottom:1px solid #ececec }
+.poll_tr > div { display:inline-block; color:#333; line-height:40px;text-align:center; }
+
+
+
+
+.poll_view_title { height:46px;background:#79c471;padding:11px 20px 0 20px; }
+
+.poll_mb_view { width:133px;height:40px;text-align:center;line-height:40px; }
+.poll_mb_view > p { font-size:14px;display:inline-block;vertical-align:top; }
+.poll_mb_view > img { margin-top:13px; }
+
+.chart_list > div > p { display:inline-block; }
+
+.poll_view_box { border:1px solid #dcdcdc;border-top:none;background:#f6f5e5;min-height:231px;padding:20px; }
+
+.poll_list_box { width:657px;height:118px;background:#fff;margin-top:8px;padding:10px;margin-bottom:20px; }
+
+.poll_detail_box { width:637px;background:#fff;margin-top:8px;padding:20px;margin-bottom:20px; }
+
+.poll_detail_box > div:first-child { border-bottom:2px solid #e4e4e4;padding-bottom:7px; }
+.poll_detail_list { height:72px;border-bottom:1px solid #e4e4e4;line-height:72px; }
+.poll_detail_list > div { display:inline-block; }
+
+.poll_detail_box > div:nth-last-of-type(2) { border-bottom:2px solid #e4e4e4; }
+
+.poll_per_text { color:#19810f; vertical-align:top; margin-top:-1px; display:inline-block;width:45px; }
+
+.reply_add_box { height:58px;background:#f6f5e5;margin-top:10px;text-align:center;padding-top:15px; }
+.reply_add_box > input[type=text] { 
+	width:577px;
+	height:41px;
+	border:1px solid #79c471;
+	border-top-left-radius:4px;
+	border-bottom-left-radius:4px;
+	padding-left:20px;
+}
+.reply_add_box > input[type=text]::-ms-clear { color:#cccccc; }
+.reply_add_box > input[type=button] {
+	width:72px;
+	height:43px;
+	background:#79c471;
+	border:none;
+	color:#fff;
+	font-weight:bold;
+	font-size:14px;
+	border-top-right-radius:4px;
+	border-bottom-right-radius:4px;
+	margin-left:-4px;
+	vertical-align:top;
+}
+
+.reply_list_area { margin-top:10px;border:1px solid #ddd; border-radius:4px;padding:18px 20px; }
+.reply_list_box { border-bottom:1px dotted #dddddd; padding-top:15px;}
+
+
+
+/* FF용 핵*/
+@-moz-document url-prefix() { 
+.vote_list input[type="radio"] + label::before { margin-top:0px; }
+.vote_list input[type="radio"]:checked + label::before { margin-top:0px; }
+ }
+
+.margin_o > img { margin-top:0px !important;}

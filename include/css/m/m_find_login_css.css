@@ -1,0 +1,104 @@
+
+.find_area { background:#fefefe;margin-top:10px;min-height:180px; }
+
+.find_tab { width:100%; }
+.find_tab label {
+	display:inline-block;
+	width:100%;
+}
+
+.find_tab label span {
+	width:100%;
+	background:#fff;
+	color:#333;
+	height:35px;
+	line-height:35px;
+	text-align:center;
+	display:block;
+	cursor:pointer;
+	font-weight:bold;
+	border-bottom:1px solid #ccc;
+}
+
+.find_tab tr td:first-child {
+	border-right:1px solid #ccc;
+}
+
+.find_tab label input {
+	display:none;
+}
+
+.find_tab input:checked + span {
+	width:100%;
+	background:#fff;
+	color:#ea3c3c;
+	height:35px;
+	line-height:35px;
+	text-align:center;
+	font-weight:bold;
+}
+
+input.m_radiobox + label { padding-left:12px;color:#666;margin-right:15px;}
+
+.mobile_border_table tr td:first-child { width:25%;color:#333;font-weight:bold; }
+.mobile_border_table tr td:last-child { width:75%; }
+
+.m_join_text { width:58%;height:25px;border:1px solid #ccc; }
+
+.mobile_select { margin-right:5px !important; }
+.mobile_select select { height:26px; }
+
+.find_btn { background:#d53b3b;width:30%;height:35px;border:none;border-radius:4px;color:#fff;font-weight:bold; }
+
+.select_box_ccc_border select { width:23%;height:28px; }
+.select_box_ccc_border input[type=text] { border:1px solid #ccc;width:23%;height:26px;margin-top:-1px; }
+
+#pwd_2_display input[type=text] { width:40%;height:24px; }
+#pwd_2_display select { width:88%;height:26px;margin-top:5px; }
+
+input[type=text], select { -webkit-border-radius:0px; }
+
+
+
+@media all and (max-width:320px){		/* 작은화면용 (ex.Galaxy S2,S1, iPhone 4, iPhone5)*/
+
+	input.m_radiobox + label { margin-top:5px; }
+
+}
+
+@media all and (min-width:430px) and (max-width:599px){		/* 작은화면의 가로모드 (ex.Galaxy S2,S1, iPhone 4, iPhone5) (orientation:landscape) */
+
+	.find_tab label span { height:44px;line-height:44px;font-size:14px; }
+	.find_tab input:checked + span { height:44px;line-height:44px; }
+
+	.find_area > div > p { font-size:14px; }
+	.mobile_border_table tr td:first-child { font-size:13px; }
+
+	.select_box_ccc_border select { height:33px; }
+	.select_box_ccc_border input[type=text] { height:30px; }
+
+	.find_btn { height:43px;font-size:16px; }
+}
+
+@media all and (min-width:600px){	/* width : 600넘어가면, 가로모드 (orientation:landscape) */
+
+	.find_tab label span { height:60px;line-height:60px;font-size:23px; }
+	.find_tab input:checked + span { height:60px;line-height:60px; }
+
+	.find_area > div > p { font-size:20px; }
+	.mobile_border_table tr td:first-child { font-size:20px; }
+
+	.select_box_ccc_border select { height:46px; }
+	.select_box_ccc_border input[type=text] { height:45px; }
+
+	#pwd_2_display input[type=text] { width:40%;height:45px; }
+	#pwd_2_display select { width:88%;height:40px;margin-top:5px; }
+
+	.m_join_text  { height:45px; }
+
+	.mobile_select select { height:40px; }
+
+	.find_btn { width:40%;height:60px;font-size:24px;margin-top:10px; }
+
+
+}

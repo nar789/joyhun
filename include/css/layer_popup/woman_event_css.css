@@ -1,0 +1,21 @@
+
+/* 여성 선물받기 확인 레이어팝업 */
+
+.w_take_it_btn {width:85px; height:30px; background-color:#ed4949; text-align:center; line-height:30px; border-radius:4px; margin:auto;}
+.w_take_it_btn b { color:#fff; }
+.w_take_it_infor_btn { width:88px; height:20px; text-align:center; line-height:20px; border:1px solid #dcdcdc; border-radius:2px; margin-bottom:10px; }
+.w_take_it_textbox { line-height:18px; padding-top:15px; }
+.w_take_it_textbox > div { color:#999; padding-top:5px; } 
+
+
+/* 채팅신청 채팅대화 
+	3회하기 레이어팝업 */
+.margin_auto > img { width:100%; } 
+.woman_event_btn_box { padding-top:29px; padding-bottom:40px; }
+.woman_event_btn { width:142px; height:30px; border-radius:4px; background:#ed4949; margin:auto; text-align:center; line-height:30px; }
+.woman_event_btn > b { color:#fff; }
+.woman_event_cnt { position:relative;width:100%;height:450px;overflow:hidden;padding-top:10px;overflow-x:hidden;overflow-y:scroll; }
+
+
+.warning_btn {width:165px; height:30px; background-color:#ed4949; text-align:center; line-height:30px; border-radius:4px; margin:auto;}
+.warning_btn b { color:#fff; }

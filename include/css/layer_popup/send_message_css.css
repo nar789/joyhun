@@ -1,0 +1,121 @@
+
+
+.alarm_chat_area {
+	width:420px;
+}
+
+.alarm_chat_area p span:nth-child(2){float:right; padding-right:10px; color:#999999;}
+
+.alarm_chat_img {
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	vertical-align:top;
+	width:123px;
+	height:124px;
+}
+
+.alarm_chat_text {
+	width:261px;
+	height:104px;
+	border:1px solid #cccccc;
+	padding:10px;
+	color:#999;
+	margin-left:6px;
+	resize:none;
+}
+
+.alarm_chat_text:-ms-input-placeholder {color:#999;}
+.alarm_chat_text::-moz-placeholder {color:#999;}
+.alarm_chat_text::-webkit-input-placeholder {color:#999;}
+
+.alarm_chat_guid { width:420px;height:60px;background:#fcfcfc;margin-top:20px; }
+.alarm_chat_guid_box { padding-left:10px;padding-top:8px;}
+.alarm_chat_guid_box li{padding-top:5px;}
+
+.alarm_chat_btn {
+	width:84px;
+	height:30px;
+}
+
+
+
+.chat_push_li > li:before,
+.chat_push_li_m > li:before{
+    content: "•";
+    color: #a0a0a0;
+}
+
+.chat_push_box { height:50px;}
+
+.chat_push_box > .chat_push_li li b:first-child { font-size:14px;color:#333;display:inline-block;width:90px; }
+.chat_push_box > .chat_push_li li b:last-child { font-size:14px;color:#999; }
+.chat_push_box > .chat_push_li li:last-child { margin-top:10px; }
+
+
+.chat_push_box_m { height:38px;padding:3px; }
+.chat_push_li_m > li > b:first-child { font-size:11px;color:#333;display:inline-block;width:40%;vertical-align:top; }
+.chat_push_li_m > li > b:last-child { font-size:11px;color:#999;display:inline-block;width:50%;vertical-align:top; }
+.chat_push_li_m > li:last-child { margin-top:5px; }
+
+/* 추가 */
+.b{font-weight:bold;}
+
+.resend_area{ width:420px; margin-top:15px;}
+.resend_area p span:nth-child(1){float:right; padding-right:10px; color:#999999;}
+
+.resend_textarea {
+	width:395px;
+	height:80px;
+	border:1px solid #cccccc;
+	padding:10px;
+	color:#999;
+	resize:none;
+}
+
+.resend_textarea:-ms-input-placeholder {color:#999;}
+.resend_textarea::-moz-placeholder {color:#999;}
+.resend_textarea::-webkit-input-placeholder {color:#999;}
+
+.rwrap {
+    width: 418px;
+	height: 103px;
+    position: relative;
+    display: inline-block;
+}
+
+.rwrap span {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.swrap {
+    width: 418px;
+	height: 128px;
+    position: relative;
+    display: inline-block;
+}
+
+.swrap span {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+#counter {
+  background:rgba(255,0,0,0.5);
+  border-radius: 0.5em;
+  padding: 0 .5em 0 .5em;
+  font-size: 1.0em;
+}
+
+.msg_send_chat > input[type=button] {
+    width: 110px;
+    height: 22px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    background: #fff;
+    color: #838383;
+    font-size: 8.25pt;
+    cursor: pointer;
+}

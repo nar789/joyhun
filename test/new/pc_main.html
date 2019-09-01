@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+	<meta name="description" content="조이헌팅"/>
+	<meta name="keywords" content="조이헌팅"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!--<link rel="shortcut icon" href="/favicon.ico" />-->
+	<title>비밀연애</title>
+
+	<link href="css/component_css.css" rel="stylesheet" />
+	<link href="css/layout_css.css" rel="stylesheet" />
+	<link href="css/head.css" rel="stylesheet" />
+	<link href="css/bottom.css" rel="stylesheet" />
+	<link href="css/by_project.css" rel="stylesheet" />
+	<!--<link href="css/chat/alrim_css.css" rel="stylesheet" />-->
+	<link href="css/jquery-ui-1.11.4.css" rel="stylesheet" />
+
+
+	<!-- 슬라이딩 -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script src="http://googledrive.com/host/0B-QKv6rUoIcGeHd6VV9JczlHUjg"></script><!-- holder.js link -->
+	
+</head>
+<body class="bg_fff">
+
+	<!-- top start -->
+	<div class="header" id="header_bd">
+		
+		<div class="head">
+
+			<a href="#"><div class="favorites">
+				<span>★</span>
+				<b>즐겨찾기</b>
+			</div>
+			<div class="clear"></div>
+			</a>
+	
+			<a href="/test/new/pc_main.html"><img src="img/pc_main_rogo.png" class="float_left"></a>			
+			<div class="float_right margin_top_5">
+				<div class="tabMenu">
+					<ul class="tab" id="tab">
+						<li rel="tab1"><a href="/test/new/pc_list.html">접속자</a></li>
+						<li rel="tab2"><a href="#">채팅</a></li>
+						<li rel="tab3"><a href="#">프로필</a></li>
+						<li rel="tab4"><a href="#">선물</a></li>
+						<li rel="tab5"><a href="#">더보기</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="clear"></div>
+
+		</div>
+
+	</div>
+	<!-- ## top end -->
+
+	<ul class="tab_menu" id="tab_menu">
+		<li>메뉴1</li>
+		<li>메뉴2</li>
+		<li>메뉴3</li>
+	</ul>
+
+	<div class="tab_menu_con" id="tab_menu_con">
+		<div><img src="#1">1</div>
+		<div><img src="#2">2</div>
+		<div><img src="#3">3</div>
+	</div>
+
+<style>
+a { text-decoration:none; color:#000; }
+.tab_menu{background:#fff; overflow:hidden; }
+.tab_menu li { float:left; width:33.3%; text-align:center; box-sizing:border-box; }
+.tab_menu li { display:inline-block; padding:20px; cursor:pointer; }
+.tab_menu li.on {color:#dcdcdc; }
+.tab_menu_con { clear:both; border:1px solid #ddd; }
+.tab_menu_con div { display:none; height:80px; background:#eee; line-height:80px; text-align:center; }
+</style>
+
+<script>
+$(function () { 
+ tab_menu('#tab_menu',0); 
+});
+
+function tab_menu(e, cnt ){
+    var cnt = cnt || 0;
+    var menu = $(e).children();
+    var con = $(e+'_con').children();
+    var select = $(menu).eq(cnt );
+    var i = cnt;
+
+    select.addClass('on');
+    con.eq(cnt).show();
+
+    menu.click(function(){
+        if(select!==null){
+            select.removeClass("on");
+            con.eq(i).hide();
+        }
+
+        select = $(this); 
+        i = $(this).index();
+
+        select.addClass('on');
+        con.eq(i).show();
+    });
+}
+</script>
+
+	<!-- CONTENT START -->
+	<div class="content">
+
+		<div class='main_banner_area'>
+
+			<div class="container">
+				<div class="main_gradation"><img src="img/gradation.png"></div>
+				<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1" class=""></li>
+						<li data-target="#myCarousel" data-slide-to="2" class=""></li>
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class="item active z1">
+							<img src="img/pc_main_03.png">
+						</div>
+						<div class="item z1">
+							 <img src="img/pc_main_02.png">
+						</div>
+						<div class="item z1">
+							<img src="img/pc_main_01.png">
+						</div>
+					</div>
+					<a class="main_banner_left_ic" href="#myCarousel" onfocus='this.blur()' role="button" data-slide="prev">
+						<img src="img/pc_main_left_ic.png">
+					</a>
+				    <a class="main_banner_right_ic" href="#myCarousel" onfocus='this.blur()' role="button" data-slide="next">
+						<img src="img/pc_main_right_ic.png">
+					</a>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="margin_auto text-center height_250 padding_top_20">
+			<div class="block"><a href="#"><img src="img/pc_main_bottom_01.png"></a></div>
+			<div class="block margin_left_5"><a href="#"><img src="img/pc_main_bottom_02.png"></a></div>
+			<div class="block margin_left_5"><a href="#"><img src="img/pc_main_bottom_03.png"></a></div>
+		</div>
+
+	</div>
+	<!-- CONTENT END -->
+				
+
+
+	<!-- ## footer_frame-->
+	<div class="footer_frame">
+		<div class="footer_border"></div>
+
+		<div class="pc_footer"> 
+			<div class="footer_menu blod">
+				<a href="#" class="color_888 font-size_14">개인정보 취급방침 </a>&nbsp;&nbsp;
+				<span class="border_right_858585"></span>&nbsp;&nbsp;
+				<a href="#" class="color_888 font-size_14">회사소개 </a>&nbsp;&nbsp;
+				<span class="border_right_858585"></span> &nbsp;&nbsp; 
+				<a href="#" onclick="business_add('사업제휴문의')" class="color_888 font-size_14"> 사업제휴문의 </a>&nbsp;&nbsp;
+				<span class="border_right_858585"></span>&nbsp;&nbsp;
+				<a href="#" onclick="business_add('광고문의')" class="color_888 font-size_14"> 광고문의 </a>&nbsp;&nbsp;
+				<span class="border_right_858585"></span>&nbsp;&nbsp;
+				<a href="#" class="color_888 font-size_14"> 청소년보호정책 </a>&nbsp;&nbsp;
+				<span class="border_right_858585"></span>&nbsp;&nbsp;
+				<a href="#" class="color_888 font-size_14"> 이용약관 </a>&nbsp;&nbsp;
+				<span class="border_right_858585"></span>&nbsp;&nbsp;
+				<a href="#" class="color_888 font-size_14"> 고객센터 </a>&nbsp;&nbsp;
+				<span class="border_right_858585">
+				</span>&nbsp;&nbsp;<a href="#" class="color_888 font-size_14"> 권리침해신고센터 </a>
+			</div>		
+
+			<div class="footer_mid">
+			상호 : 위드유&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;대표 : 이흥일&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;주소:경기도 수원시 팔달구 인계로 132 (인계동, 인계오피앙) 201/202호&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;사업자등록번호 : 135-24-79774<br>
+			대표전화 : 070-7434-2782 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 이메일 : matchshop@nate.com
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;통신판매업신고 : 제 2014-수원팔달-0184호<br><!--결혼정보업 : 경기-수원-국내-12-0003-->
+			</div>
+			<div class="footer_copy">
+			COPYRIGHTS (C) 2016 JOYHUNTING. All Rights Reserved.
+			</div>
+
+		
+		</div>		<!-- ## footer end -->
+
+	</div>
+	<!-- ## footer_frame end -->
+
+
+
+	<div id="overlay" style="display: none;"></div>
+	<div id="modal" style="position: fixed; display: none;"><div id="md_content"></div></div>
+	<div id="overlay2" style="display: none;"></div>
+	<div id="modal2" style="position: fixed; display: none;"><div id="md_content"></div></div>
+
+</body>
+</html>

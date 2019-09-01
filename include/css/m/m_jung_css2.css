@@ -1,0 +1,73 @@
+.pay_btn_box_first { width:100%;position:absolute;bottom:0;margin-bottom: 44%; }
+.pay_btn_box_02 { width:100%;position:absolute;bottom:0;margin-bottom: 63%; }
+.pay_btn_box_03 { width:100%;position:absolute;bottom:0;margin-bottom: 81%; }
+.pay_btn_box_04 { width:100%;position:absolute;bottom:0;margin-bottom: 100%; }
+.pay_btn_box { width:100%;position:absolute;bottom:0;margin-bottom: 27%; }
+.pay_btn { width:100%;font-size:12px;height:38px; }
+
+input.m_radiobox + label{padding:0 0 0 24px;background-size:20px;height:20px;line-height:20px;font-size:14px;}
+input.m_radiobox:checked + label{ background-size:20px;height:20px;line-height:20px; }
+.pay_text { margin-bottom: 13%;width: 81%;margin-left: auto;margin-right: auto; }
+
+.jung_product_list{ position:absolute; width:100%; height:41.8%; top:23.5%; left:0%; }
+.jung_product_list .product_box_1{ position:relative; width:84%; height:23.2%; margin:auto; }
+.jung_product_list .product_box_2{ position:relative; width:84%; height:28.2%; margin:auto; margin-top:5.6%; }
+.jung_product_list .product_box_3{ position:relative; width:84%; height:28.2%; margin:auto; margin-top:0%; }
+.jung_product_list .product_box_4{ position:relative; width:84%; height:28.2%; margin:auto; margin-top:0%; }
+.jung_product_list .product_box_1 div, .jung_product_list .product_box_2 div, .jung_product_list .product_box_3 div, .jung_product_list .product_box_4 div{ position:relative; width:25%; height:100%; text-align:center; }
+.jung_product_list label{ margin-top:32%; }
+
+.payment_box{ position:absolute; width:100%; height:10%; top:72%; left:0%; }
+.payment_box table{ margin:auto; margin-top:10px; }
+
+/*############################################################################################################################################# */
+
+@media all and (max-width:320px){		/* 작은화면용 (ex.Galaxy S2,S1, iPhone 4, iPhone5)*/
+
+input.m_radiobox + label{font-size:12px;}
+.pay_btn_box_first { margin-bottom: 44%; }
+
+.jung_product_list label{ margin-top:28%; }
+
+input.m_radiobox + label{padding:0 0 0 19px;background-size:15px;height:20px;line-height:17px;font-size:12px;}
+input.m_radiobox:checked + label{ background-size:15px;height:20px;line-height:17px; }
+
+}
+
+@media all and (min-width:321px) and (max-width:374px){	
+
+.jung_product_list label{ margin-top:30%; }
+
+input.m_radiobox + label{padding:0 0 0 21px;background-size:18px;height:20px;line-height:18px;font-size:13px;}
+input.m_radiobox:checked + label{ background-size:18px;height:20px;line-height:18px; }
+
+}
+
+@media all and (min-width:375px) and (max-width:449px){		/* 작은화면의 가로모드 (ex.Galaxy S2,S1, iPhone 4, iPhone5) (orientation:landscape) */
+
+input.m_radiobox + label{font-size:15px;}
+
+.jung_product_list label{ margin-top:31%; }
+
+input.m_radiobox + label{padding:0 0 0 21px;background-size:18px;height:20px;line-height:18px;font-size:13px;}
+input.m_radiobox:checked + label{ background-size:18px;height:20px;line-height:18px; }
+
+
+}
+
+
+@media all and (min-width:450px) and (max-width:599px){		/* 작은화면의 가로모드 (ex.Galaxy S2,S1, iPhone 4, iPhone5) (orientation:landscape) */
+
+input.m_radiobox + label{padding:0 0 0 27px;background-size:21px;height:21px;line-height:21px;font-size:21px;}
+input.m_radiobox:checked + label{ background-size:21px;height:21px;line-height:21px; }
+
+
+}
+
+@media all and (min-width:600px){	/* width:600이상 or 가로모드 (orientation:landscape) */
+
+input.m_radiobox + label{padding:0 0 0 35px;background-size:27px;height:27px;line-height:27px;font-size:27px;}
+input.m_radiobox:checked + label{ background-size:27px;height:27px;line-height:27px; }
+
+.payment_box table{ margin-top:40px; }
+}

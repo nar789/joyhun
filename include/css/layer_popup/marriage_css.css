@@ -1,0 +1,13 @@
+
+.marriage_textarea {
+	width:426px;
+	height:74px;
+	resize:none;
+	border:1px solid #cccccc;
+	margin-top:5px;
+	padding:9px;
+}
+
+.marriage_textarea:-ms-input-placeholder {
+	color:#999999;
+}

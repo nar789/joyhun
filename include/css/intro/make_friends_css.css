@@ -1,0 +1,124 @@
+
+
+
+.chatting_main_btn { 
+	float:right;
+	height:22px;
+	width:102px;
+	background:#e5296e;
+	border-radius:4px;
+	font-size:9.75pt;
+	color:#fff;
+	line-height:22px;
+	font-weight:bold;
+	margin-top:29px;
+	margin-right:20px;
+	text-align:center;
+}
+
+.area_age_tab_on {
+	color:#333 !important;
+	font-weight:bold !important;
+	background:#fff5a3 !important;
+	cursor:pointer;
+	border-bottom:1px solid #fff5a3 !important;
+}
+
+
+.chatting_top_tab > li {
+	display:inline-block;
+	height:39px;
+	color:#666;
+	cursor:pointer;
+	border:1px solid #dedede;
+	padding-left:29px;
+	padding-right:30px;
+	height:38px;
+
+}
+
+.chatting_top_tab > li:first-child { border-top-left-radius:6px; }
+.chatting_top_tab > li:last-child { border-top-right-radius:6px; margin-left:-4px; }
+
+
+.area_age_tab_content {
+	background:#fff5a3;
+	border:1px solid #dedede;
+	margin-top:-1px;
+	width:716px;
+	height:253px;
+	border-top-right-radius:6px;
+}
+
+.area_age_tab_box {
+	width:698px;
+	height:234px;
+	margin-top:9px;
+	margin-left:9px;
+}
+
+.area_age_tab_top {
+	height:163px;
+	background:#fff;
+	padding-top:2px;
+	padding-left:3px;
+}
+
+.area_age_tab_top > img {
+	border:1px solid #4f80e4;
+	border-radius:6px;
+	margin-left:5px;
+	margin-top:8px;
+	cursor:pointer;
+}
+
+.area_age_tab_bottom {
+	height:55px;
+	background:#f1f1f1;
+	padding-top:16px;
+	padding-left:3px;
+}
+
+.area_age_tab_bottom > img {
+	margin-left:5px;
+	cursor:pointer;
+	border:1px solid #29bddd;
+	border-radius:6px;
+}
+
+.chatting_middle_box {
+	height:297px;
+	background:#fffef6; 
+	margin-top:8px;
+	padding-top:18px;
+	padding-left:22px;
+	border: 1px solid #dcdcdc; 
+	border-radius:6px;
+
+}
+
+.chtting_bottom_box {
+	height:603px; 
+	margin-top:8px;
+	padding-top:18px; 
+	border: 1px solid #dcdcdc;
+	border-radius:6px;
+
+}
+
+.chtting_bottom_bg { 
+
+	border-bottom:2px solid #868585;
+}
+
+.chtting_text_box {
+	width:100px; 
+	display: inline-block; 
+	margin-left:10px;
+	line-height:18px;
+	vertical-align:top; 
+	margin-top:23px;
+}
+
+.chtting_text_box > p { color:#666px; cursor:pointer;}
+.chtting_text_box > b { color:#333px; cursor:pointer;}

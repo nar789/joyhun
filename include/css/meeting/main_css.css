@@ -1,0 +1,1360 @@
+/*********************************************** met main start **********************************************************/
+
+/* TOPAREA, CENTERAREA */
+.meeting_top_area {
+	height:206px;
+	border:1px solid #dcdcdc;
+}
+
+.beongae_top_img {
+	border-right:1px solid #dcdcdc;
+	float:left;
+}
+
+.meeting_center_area {
+	width:718px;
+	height:36px;
+	margin-top:40px;
+}
+
+/* TOPAREA, CENTERAREA END */
+
+.meeting_2dep_box {
+	height:38px;
+	background:#f0f0f0;
+	margin-top:10px;
+	border-radius:4px;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.meeting_2dep_box > ul > li:first-child { 
+	margin-left:5px;
+}
+
+.meeting_2dep_on {
+	float:left;
+	background:#fff;
+	margin-top:5px;
+	line-height:31px;
+	color:#333333;
+	padding:0px 15px 2px 15px;
+}
+
+.meeting_2dep_off {
+	float:left;
+	line-height:40px;
+	color:#999999;
+	padding:0px 15px;
+}
+
+.met_conbox_1 > .met_con_title_box {
+	height:50px;
+	background:#feebe9;
+}
+
+.met_conbox_1 > .met_con_sub_box{
+	height:1279px;
+	background:#f6b6af;
+	margin-top:-1px;
+}
+
+.met_con_title_left {
+	margin-top:23px;
+	margin-left:20px;
+	float:left;
+	color:#333333;
+	font-weight:bold;
+}
+
+.met_con_title_left > span {
+	color:#ff1c24;
+	font-size:16px;
+}
+
+.met_con_title_right {
+	margin-top:16px;
+	margin-right:14px;
+	float:right
+}
+
+.met_con_title_right > ul > li {
+	float: left;
+	margin-right:2px;
+}
+
+.over {
+	width:130px;
+	height:34px;
+	background:#f6b6af;
+	border-top-left-radius:4px;
+	border-top-right-radius:4px;
+	text-align:center;
+}
+
+.out {
+	width:130px;
+	height:34px;
+	background:#e78176;
+	border-top-left-radius:4px;
+	border-top-right-radius:4px;
+	text-align:center;
+}
+
+.met_con_sub_title {
+	height:34px;
+	margin-left:11px;
+	padding-top:20px;
+}
+
+.met_con_sub_title > ul > li {
+	float:left;
+	margin-left:5px;
+	margin-right:5px
+}
+
+.met_con_sub_title > ul > li > div {	
+	width:160px;
+	height:30px;
+	border:2px solid #ffffff;
+	border-radius:4px;
+	background:#dd4040;
+	text-align:center;
+	line-height:30px;
+	font-weight:bold;
+}
+
+.met_con_sub_title > ul > li > div > a {
+	color:#ffffff;
+}
+.met_con_content_box {
+	width:698px;
+	height:190px;
+	margin-top:10px;
+	margin-left:11px
+}
+
+.met_con_content_box > div {
+	width:339px;
+	height:190px;
+	background:#fff;
+	border-radius:4px;
+	margin-left:5px;
+	margin-right:5px;
+	float:left
+}
+
+.met_content_box {
+	width:319px;
+	height:170px;
+	margin-top:10px;
+	margin-left:10px;
+}
+
+.met_content_img {
+	width:130px;
+	height:168px;
+	float:left;
+	cursor:pointer;
+}
+
+.met_content_img > img {
+	width:130px;
+	height:168px;
+	border:1px solid #e0e0e0;
+}
+
+.met_content_top {
+	width:177px;
+	height:80px;
+	float:left;
+	padding-top:10px;
+	padding-left:10px;
+}
+
+.met_content_top > p {
+	color:#333333;
+	font-size:13px;
+	font-weight:bold;
+}
+
+.met_content_top > p > span {
+	color:#666666;
+	font-size:12px;
+}
+
+.met_content_top > ul {
+	color:#666666;
+	font-size:12px;
+	line-height:18px;
+	margin-top:5px;
+}
+
+.met_content_top > ul > li > img {
+	margin-bottom:-3px;
+}
+
+.met_content_bottom {
+	width:177px;
+	height:80px;
+	float:left;
+	padding-left:10px;
+}
+
+.met_content_bottom_title {
+	width:168px;
+	height:29px;
+	background:#f4f4f4;
+	border-radius:4px;
+	color:#999999;
+	font-size:12px;
+	line-height:29px;
+	padding-left:10px;
+}
+
+
+.met_content_bottom_btn {
+	width:94px;
+	height:39px;
+	margin-top:10px;
+}
+
+
+.met_content_bottom_btn2 {
+	width:40px;
+	height:37px;
+	border:1px solid #bababa;
+	border-radius:4px;
+	float:left;
+	margin-left:4px;
+	margin-top:10px;
+	text-align:center;
+	line-height:40px;
+	cursor:pointer;
+}
+
+.area_member {
+	width:78px;
+	height:56px;
+	border:1px solid #f4a69d;
+	background:#f6b6af;
+	color:#ffffff;
+	font-weight:bold;
+	margin:4px 7px 4px 7px;
+	border-radius:4px;
+	float:left;
+	line-height:56px;
+	text-align:center;
+}
+
+.area_member > a {
+	color:#ffffff;
+}
+
+.area_member_on {
+	width:78px;
+	height:56px;
+	border:1px solid #f4a69d;
+	background:#e78176;
+	color:#ffffff;
+	font-weight:bold;
+	margin:4px 7px 4px 7px;
+	border-radius:4px;
+	float:left;
+	line-height:56px;
+	text-align:center;
+}
+
+.area_member_on > a{
+	color:#ffffff;
+}
+
+.sms_box {
+	width:232px;
+	height:273px;
+	border:1px solid #dcdcdc;
+	float:left;
+}
+
+.sms_con_box {
+	height:71px;
+	margin-top:13px;
+	margin-left:7px;
+}
+
+.sms_content > a {
+	width:219px;
+	border-bottom:2px dashed #ebebeb;
+	font-size:12px;
+	color:#333333;
+	float:left;
+	margin-top:5px;
+	padding-bottom:5px;
+}
+
+.sms_content > a > p:first-child {
+	float:left;
+}
+
+.sms_content > a > p:last-child {
+	float:right;
+	margin-right:27px;
+}
+
+.new_ting {
+	width:473px;
+	height:273px;
+	border:1px solid #dcdcdc;
+	float:left;
+	margin-left:8px;
+}
+
+.new_ting_title_box {
+	height:29px;
+	background:#f5f5f5;
+}
+
+.new_ting_title_box > .float_left > p {
+	margin-left:15px;
+	line-height:28px;
+	color:#333333;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.new_ting_title_box > .float_right > a > img {
+	margin-right:13px;
+	margin-top:9px;
+}
+
+.new_ting > #meeting_slide > div:nth-child(2n) {
+	border-top:1px solid #e9e9e9;
+	height:52px;
+	padding-top:8px;
+	padding-left:15px;
+	background:#fafafa;
+}
+
+.new_ting > #meeting_slide > div:nth-child(2n-1) {
+	border-top:1px solid #e9e9e9;
+	height:52px;
+	padding-top:8px;
+	padding-left:15px;
+}
+
+.new_ting_con_box {
+	width:446px;
+	height:46px;
+}
+
+.new_ting_con1 {
+	width:80px;
+	float:left;
+	margin-top:6px;
+}
+
+.new_ting_con1 > p {
+	color:#ea3c3c;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.new_ting_con1 > p > img {
+	margin-bottom:-5px;
+}
+
+.new_ting_con2 {
+	width:292px;
+	float:left;
+	font-size:12px;
+	margin-top:3px;
+	line-height:20px;
+}
+
+.new_ting_con2 > p {
+	font-weight:normal !important;
+}
+
+.new_ting_con3 {
+	width:74px;
+	float:left
+}
+
+.beongae_apply_btn {
+	font-size:8.25pt;
+	width:74px;
+	height:22px;
+	line-height:22px;
+}
+
+.beongae_detail_view {
+	width:74px;
+	height:22px;
+	margin-top:2px;
+	color:#838383;
+	font-weight:normal;
+	font-size:8.25pt;
+}
+
+.poll_box {
+	width:474px;
+	height:169px;
+	border:1px solid #dcdcdc;
+	float:left;
+}
+
+.poll_box_left {
+	background:url('/images/meeting/poll_bg.gif');
+	width:113px;
+	height:169px;
+	float:left;
+}
+
+.poll_box_con {
+	width:97px;
+	height:142px;
+	margin-left:8px;
+	margin-top:19px;
+}
+
+.poll_box_con > p:first-child {
+	color:#fff;
+	font-size:8.25pt;
+	font-weight:bold;
+}
+
+.poll_box_con > p:nth-child(2) {
+	color:#fff683;
+	font-weight:bold;
+	font-size:16pt;
+}
+
+.meet_main_votebtn {
+	margin-top:84px;
+	margin-left:26px;
+	width:71px;
+	height:22px;
+	margin-bottom:2px;
+}
+.vote_box {
+	height:169px;
+	float:left;
+	width:361px;
+	background:#f6f5e5;
+}
+
+.vote_title_box {
+	width:346px;
+	height:20px;
+	margin-top:16px;
+	margin-left:12px;
+	color:#333333;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.vote_list_box {
+	width:335px;
+	height:112px;
+	background:#ffffff;
+	margin-top:8px;
+	padding-left:12px;
+}
+
+.best_click {
+	width:232px;
+	height:169px;
+	border:1px solid #dcdcdc;
+	float:left;
+	margin-left:8px;
+	background:#f2f2f2;
+}
+
+.best_click_box {
+	width:230px;
+	height:148px;
+	margin-left:1px;
+	margin-top:12px;
+}
+
+.best_click_con_box {
+	margin-left:6px;
+	margin-right:6px;
+	float:left;
+}
+
+.best_click_title {
+	width:103px;
+	height:26px;
+	border-top-left-radius:4px;
+	border-top-right-radius:4px;
+}
+
+.best_click_title > p {
+	font-size:12px;
+	color:#ffffff;
+	font-weight:bold;
+	float:left;
+	margin-top:8px;
+	margin-left:2px;
+}
+
+.best_click_con_box > a > img {
+	width:103px;
+	height:99px;
+}
+
+.best_click_con_box > a > p {
+	font-size:12px;
+	color:#999999;
+	width:103px;
+	text-align:center;
+	font-weight:bold;
+	margin-top:5px;
+}
+
+.secret_layer {
+	width:234px;height:351px;float:left;
+}
+
+.secret_layer_box {
+	border:1px solid #dcdcdc;
+	border-top:none;
+	height:287px;
+	margin-top:-2px;
+}
+
+.area_box {
+	width:473px;
+	height:250px;
+	border:1px solid #dcdcdc;
+	float:left;
+	margin-left:9px;
+	background:#fff5f4;
+}
+
+.area_box > .area_title {
+	width:474px;
+	height:37px;
+}
+
+.area_box > .area_title > p:first-child {
+	float:left;
+	font-weight:bold;
+	color:#333333;
+	margin-top:17px; 
+	margin-left:8px;
+}
+
+.area_box > .area_title > p:last-child,
+.area_box > .area_title > p:nth-child(2) {
+	float:right;
+	color:#666666;
+	font-size:12px;
+	margin-top:17px;
+	margin-right:10px;
+}
+
+.pr_box {
+	width:473px;
+	height:90px;
+	border:1px solid #dcdcdc;
+	float:left;
+	margin-left:9px;
+	margin-top:8px;
+}
+
+.pr_title_box {
+	height:29px;
+	background:#f5f5f5;
+}
+
+.pr_title_box > p:first-child {
+	color:#333333;
+	font-size:12px;
+	font-weight:bold;
+	float:left;
+	margin-top:8px;
+	margin-left:15px;
+}
+
+.pr_title_box > p:last-child {
+	float:right;
+	margin-top:8px;
+	margin-right:15px;
+}
+
+.pr_con_box {
+	width:446px;
+	height:43px;
+	margin-top:5px;
+	margin-left:14px;
+}
+
+.pr_content {
+	height:25px;
+	line-height:25px
+}
+
+.pr_content > img {
+	float:left;
+	margin-top:5px;
+}
+
+.pr_content > a > p:first-child {
+	color:#666666;
+	font-size:12px;
+	float:left;
+	width:90px;
+}
+
+.pr_content > a > p:last-child {
+	color:#666666;
+	font-size:12px;
+	float:left;
+}
+
+
+
+.met_main_love_ic { position:absolute;margin-top:10px;height:37px; }
+
+
+/*********************************************** met main end **********************************************************/
+
+/*********************************************** met_sub_1 start **********************************************************/
+
+
+
+.calendar_area {
+	width:176px;
+	height:206px;
+	float:left;
+}
+
+.light_add_area {
+	width:181px;
+	height:206px;
+	float:left;
+	background:#f8f8f8;
+	border-left:1px solid #dcdcdc;
+}
+
+.light_add_box {
+	width:166px;
+	height:90px;
+	margin-top:6px;
+	margin-left:8px;
+}
+
+.textarea_scroll textarea {
+	width:135px;
+	height:58px; 
+	border:none; 
+	background:#fff; 
+	resize:none; 
+	margin:0; 
+	padding:0 0 0 10px;
+	overflow:hidden; 
+	line-height:20px;
+	margin:5px 0;
+	outline:none; 
+	margin-top:5px;
+	margin-left:1px;
+	color:#999999;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.textarea_scroll .textarea-wrapper {
+	height:68px;
+	overflow:hidden;
+}
+
+.hiddendiv {
+	position:absolute;
+	top:-9999px; 
+	left:-9999px; 
+	visibility:hidden; 
+	white-space: pre-wrap; 
+	width: 164px; 
+	min-height:68px;
+	word-wrap: break-word;
+}
+
+.mCSB_scrollTools {
+	box-sizing:border-box; 
+	padding:5px 0;
+}
+
+.mCSB_scrollTools .mCSB_draggerContainer{
+	margin:5px 0;
+}
+
+.light_textarea {
+	background:#ffffff;
+	border:1px solid #dcdcdc;
+	margin-top:1px;
+	margin-bottom:5px;
+	border-radius:4px;
+	height:73px;
+}
+
+.light_add_btn {
+	width:163px;
+	height:35px;
+	font-size:14px !important;
+	margin-top:0 !important;
+}
+
+
+
+/* MEETING SELECT SET START */
+
+
+/* MEETING SELECT SET END */
+
+
+/* MEETING SELECT individual setting */
+
+.meeting_search1 { width:94px; height:34px; }
+.meeting_search2 { width:118px;	height:34px; }
+
+.meeting_search1,
+.meeting_search2 { margin-left:5px;	margin-right:5px; }
+
+.light_add_box > div:nth-child(1),
+.light_add_box > div:nth-child(4) { margin-right:1px; }
+
+.calendar_select { width:80px;height:34px;margin-top:1px;margin-bottom:1px;font-weight:bold; }
+
+.sms_select {width:82px;height:36px;}
+
+/* MEETING SELECT individual setting END */
+
+
+
+
+
+.meeting_search_btn {
+	width:100px;
+	height:37px;
+	background:#766a6a;
+	border-radius:4px;
+	border:none;
+	font-size:14px;
+	color:#fff;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+
+
+
+.light_list_img {
+	float:left;
+	width:95px;
+}
+
+.light_list_img > a > img,
+.light_list_img > a > div {
+	width:68px;
+	height:49px;
+	border:1px solid #dfe1e0;
+	margin-top:15px;
+	margin-left:16px;
+}
+
+
+.light_list_con {
+	float:left;
+	width:398px;
+}
+
+.light_list_btn {
+	display:inline-block;
+	padding-top:23px;
+	margin-left:15px;
+}
+
+.light_request {
+	width:79px;
+	height:37px;
+	font-size:12px;
+	line-height:37px;
+	display:inline-block;
+	vertical-align:top;
+	cursor:pointer;
+	color:#fff;
+}
+
+.meet_border2_footer {
+	height:48px;
+	border-top:2px solid #e4e4e4;
+	padding-top:10px;
+	text-align:right;
+}
+
+
+#all_layout { display:block; }
+#today_layout, #ing_layout, #manage_layout { display:none; }
+
+
+.light_list_check {
+	position: relative;
+	padding-left:17px;
+	padding-top:40px;
+	width:56px;
+	float:left;
+}
+
+.light_list_check label {
+	cursor: pointer;
+	position: absolute;
+	width: 11px;
+	height: 11px;
+	border-radius: 2px;
+	background:#ffffff;
+	border:1px solid #989898;
+}
+
+.light_list_check label:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	content: '';
+	position: absolute;
+	width: 9px;
+	height: 5px;
+	background: transparent;
+	border: 3px solid #ff7878;
+	border-top: none;
+	border-right: none;
+
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.light_list_check label:hover::after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: alpha(opacity=30);
+	opacity: 0.3;
+}
+
+.light_list_check input[type=checkbox]:checked + label:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.light_list_check input[type=checkbox] {
+	visibility: hidden;
+}
+
+.light_list_con2 {
+	display:inline-block;
+	width:564px;
+	padding-left:10px;
+}
+
+.light_list_con2 > p {
+	margin-top:16px;
+	margin-right:25px;
+	color:#333333;
+	font-size:12px;
+	font-weight:bold;
+	float:left;
+}
+
+.light_list_con2 > div {
+	width:530px;
+}
+
+.my_recv_comment_arrow {
+	vertical-align:middle;
+	padding-right:6px;
+	display:inline-block;
+	margin-left:10px;
+	padding-top:8px;
+}
+
+.mybeongae_comment {
+	width:564px !important;
+	border-top:1px solid #e5e5e5;
+	padding-bottom:20px;
+}
+
+.my_comment_content {
+	vertical-align:top;
+	width:448px;
+	display:inline-block;
+	line-height:16px;
+}
+
+.mybeongae_recv_btn {
+	width:82px;
+	display:inline-block;
+	margin-left:-3px;
+	margin-top:10px;
+}
+
+.recv_btn {
+	width:60px;
+	height:22px;
+	background:#3f66c7;
+	border:none;
+	color:#fff;
+	border-radius:4px;
+	margin-left:13px;
+}
+
+
+
+/***********************************************  번개팅 end **********************************************************/
+
+
+/******************* 달력 시작 *********************/
+
+.ll-skin-vigo {
+	font-size: 90%;
+}
+
+.ll-skin-vigo .ui-widget {
+	font-family: "DroidSans", sans-serif;
+	background: #ffffff;
+}
+
+.ll-skin-vigo .ui-datepicker {
+	padding: 0;
+	width:176px;
+	height:206px;
+}
+
+.ll-skin-vigo .ui-datepicker-header {
+	padding: .3em 0;
+	color: #333333;
+	font-size: 12px;
+	border: none;
+	background-color: #f8f8f8;
+}
+
+.ui-corner-all{
+	border-radius : 0px;
+}
+
+.ui-widget-header{
+	background : none;
+}
+
+.ll-skin-vigo .ui-datepicker-header .ui-state-hover {
+	background: transparent;
+	border-color: transparent;
+	cursor: pointer;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+}
+
+.ll-skin-vigo .ui-datepicker .ui-datepicker-next span,
+.ll-skin-vigo .ui-datepicker .ui-datepicker-prev span {
+	background-image: url(/images/jquery-ui/next.gif);
+	background-position: 0px 0px;
+}
+
+.ll-skin-vigo .ui-datepicker .ui-datepicker-prev span {
+	background-image: url(/images/jquery-ui/prev.gif);
+	background-position: 0px 0px;
+}
+
+.ll-skin-vigo .ui-datepicker table {
+	margin: 0;
+}
+
+.ll-skin-vigo .ui-datepicker th {
+	padding:.5em .3em;
+	color: #707586;
+	font-size: 11px;
+	font-weight: bold;
+	text-shadow: 0 1px 0 rgba(255,255,255,.75);
+	text-transform: uppercase;
+	border: none;
+	border-bottom: 1px solid #d5d9e2;
+	background: #ffffff;
+}
+
+.ll-skin-vigo .ui-datepicker td {
+	border: none;
+	padding: 0;
+}
+
+.ll-skin-vigo td .ui-state-default {
+	background: transparent;
+	border: none;
+	text-align: center;
+	padding: .58em 0;
+	margin: 0;
+	font-weight: normal;
+	color: #8c8c8c;
+	font-size: 11px;
+}
+
+.ll-skin-vigo td .ui-state-active,
+.ll-skin-vigo td .ui-state-hover {
+	background:#e15148;
+	color: #ffffff;
+}
+
+.ui-widget-content{border:0px;}
+
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next{
+	top : 5px;
+}
+
+.ui-datepicker .ui-datepicker-prev{
+	left: 4px;
+}
+
+/******************* 달력 끝 *********************/
+
+
+
+/******************************** 미팅 > 문자팅 ****************************/
+
+.smsting_top_bg {background:url('/images/meeting/met_sub2_topimg.jpg');width:716px;height:206px;}
+.smsting_top_btn {width:155px;height:37px;background:#c35353;border:2px solid #fff;border-radius:6px;color:#fff;font-size:16px;font-weight:bold;margin-right:7px;margin-top:162px;}
+
+.meet_height_56 {height:56px !important;}
+
+.sms_alladd_btn {width:165px;margin-right:10px;font-size:14px;}
+
+.meeting_sms_list_box {width:142px;display:inline-block;font-size:12px;margin-top:16px;margin-bottom:20px;margin-left:17px;margin-right:17px;}
+.meeting_sms_list_box > img {width:145px;height:146px;margin-top:5px;border:1px solid red;}
+.meeting_sms_top {height:20px;}
+.meeting_sms_bottom {min-height:99px;text-align:center;}
+
+.meeting_msm_list > ul > li:nth-child(1),
+.meeting_msm_list > ul > li:nth-child(5),
+.meeting_msm_list > ul > li:nth-child(9){margin-left:10px; !important;}
+
+.meeting_msm_list > ul > li:nth-child(4),
+.meeting_msm_list > ul > li:nth-child(8),
+.meeting_msm_list > ul > li:nth-child(12){margin-right:10px; !important;}
+
+.meeting_sms_bottom > p:first-child {height:27px;line-height:27px;color:#333;}
+.meeting_sms_bottom > p:nth-child(2) {min-height:22px;line-height:22px;color:#666;}
+.meeting_sms_bottom > p:nth-child(3) {height:28px;color:#999;}
+
+.meeting_sms_bottom > p > b {font-weight:900;}
+
+.meeting_sms_list_btn {width:145px;height:22px;color:#333;font-weight:bold;}
+
+
+.sms_ting_thum > a > img,
+.sms_ting_thum > a > div { border:1px solid #dfe1e0;}
+
+.sms_ting_thum > a > img { margin-bottom:-3px;}
+
+
+
+.sms_my_sub3_radio_box label {
+	cursor: pointer;
+	position: absolute;
+	width: 11px;
+	height: 11px;
+	border-radius: 11px;
+	background:#ffffff;
+	border:1px solid #919191;
+	display:inline-block;
+}
+
+.sms_my_sub3_radio_box label:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	content: '';
+	position: absolute;
+	width: 7px;
+	height: 7px;
+	border-radius:7px;
+	background: #ff7878;
+	top:2px;
+	left:2px;
+}
+
+.sms_my_sub3_radio_box input[type="radio"]:checked + label:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.sms_my_sub3_radio_box input[type="radio"]{
+	/*visibility: hidden;*/
+	display:none;
+}
+
+.sms_my_sub3_radio_box > span{padding-left:17px;margin-right:6px;}
+
+
+.chk_989898 {
+  display: none;
+}
+
+.meet_sms_list_title {
+    cursor: pointer;
+	color:#999999;
+	font-weight:bold;
+	height:13px;
+	position:relative;
+}
+
+.chk_989898 + .meet_sms_list_title:before {
+    content: '';
+    background: #fff;
+    border-radius: 2px;
+    border: 1px solid #989898;
+    display: inline-block;
+    vertical-align: middle;
+    width: 8px;
+    height: 8px;
+    padding: 2px;
+    text-align: center;
+	margin-right:6px;
+}
+
+.chk_989898:checked + .meet_sms_list_title:after {
+    content: "";
+    padding: 2px;
+    text-align: center;
+    position: absolute;
+    width: 1px;
+    height: 5px;
+    border: 1px solid #ff7878;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    top: 0px;
+    left: 3px;
+}
+
+.sms_my_sub3_left {
+	border:1px solid #e3e3e3;
+	width:183px;
+	height:425px;
+	display:inline-block;
+	vertical-align:top;
+	background:#f8f8f8;
+}
+
+.sms_my_sub3_right {
+	border:1px solid #e3e3e3;
+	width:522px;
+	height:425px;
+	display:inline-block;
+	margin-left:4px;
+}
+
+.sms_my_img{
+	width:165px;
+	height:166px;
+	margin-top:10px;
+	margin-left:8px;
+}
+
+.sms_my_sub3_td1 {
+	color:#333333;
+	width:76px;
+	display:inline-block;
+}
+
+.sms_my_sub3_td2 {
+	color:#ea3c3c;
+	display:inline-block;
+	margin-left:-4px;
+}
+
+.sms_my_sub3_right_border {
+	width:484px;
+	height:76px;
+	border-bottom:1px solid #ececec;
+}
+
+.sms_my_sub3_right_title {
+	padding-top:26px;
+	width:124px;
+	color:#3333333;
+	font-weight:bold;
+	display:inline-block;
+	vertical-align:top;
+}
+
+.sms_sub_btn {
+	width:61px;
+	height:30px;
+}
+
+.sms_sub2_right_bg {
+	width:484px;
+	height:52px;
+	background:#e7f4ff;
+	text-align:center;
+	margin-top:9px;
+	color:#333333;
+	line-height:52px;
+}
+
+.sms_my_sub3_right_btn {
+	width:41px;
+	height:22px;
+	color:#838383;
+}
+
+.sms_mylist_btn {
+	width:61px;
+	height:22px;
+}
+
+.m_sms_ph {
+	width:50px;
+	height:20px;
+	border:1px solid #dcdcdc;
+	border-radius:4px;
+	padding-lefT:4px;
+	color:#999;
+}
+
+
+/******************************** 미팅 > 문자팅 END ****************************/
+
+/******************************** 미팅 > 소셜팅 START ****************************/
+
+.socialting_top_bg {background:url('/images/meeting/met_sub3_topimg.jpg');width:716px;height:206px;}
+.socialting_top_btn {width:165px;height:37px;background:#632bd5;border:none;border-radius:6px;color:#fff;font-size:14px;font-weight:bold;margin-right:7px;margin-top:162px;}
+
+.meet_social_img {
+	padding-top:15px;
+	padding-left:7px;
+	display:inline-block;
+	cursor:pointer;
+}
+
+.meet_social_img > img {
+	width:74px;
+	height:71px;
+	border:1px solid #dfe1e0;
+}
+
+.meet_social_textbox {
+	width:360px;
+	min-height:65px;
+	display:inline-block;
+	vertical-align:top;
+	padding-top:23px;
+	padding-bottom:18px;
+	margin-left:7px;
+}
+
+.meet_social_textbox > div > img { vertical-align:top; margin-top:-3px; }
+
+.meet_social_textarea {
+	width:342px;
+	min-height:31px;
+	border:1px solid #d7f7ff;
+	background:#f5fdff;
+	border-radius:3px;
+	color:#666666;
+	word-break:break-all;
+	margin-top:9px;
+	padding:3px;
+	line-height:16px;
+}
+
+.meet_social_btnbox {
+	width:261px;
+	display:inline-block;
+	vertical-align:top;
+	margin-right:1px;
+}
+
+.meet_social_btnbox:after {content:""; display:block; clear:both;}
+
+.meet_social_ic_bg {
+	width:247px;
+	height:30px;
+	border:1px solid #dcdcdc;
+	background:url('/images/meeting/social_ic_bg.gif');
+	border-radius:4px;
+	padding-left:11px;
+	margin-top:15px;
+	margin-left:2px;
+}
+
+.meet_social_fe727b_btn {
+	width:128px;
+	height:37px;
+	line-height:37px;
+	display:inline-block;
+	vertical-align:top;
+	color:#fff;
+	cursor:pointer;
+}
+
+/******************************** 미팅 > 소셜팅 END ****************************/
+
+/******************************** 미팅 > 짝/애정촌 START ****************************/
+
+
+.meet_jjack_top {
+	background:url('/images/meeting/met_sub4_topimg.jpg');
+	height:206px;
+}
+
+.meet_jjack_area { 
+	padding-top:114px;
+	padding-left:288px;
+}
+
+.meet_jjack_check {
+	width:39px;
+	padding-left:12px;
+	padding-right:4px;
+}
+
+
+.top_textarea_img > div { width:74px;height:71px;margin-left:-1px;margin-top:-1px; }
+
+/******************************** 미팅 > 짝/애정촌 END ****************************/
+
+
+.vote_list input[type="radio"] + label:before,
+.vote_list input[type="radio"]:checked + label:before { margin-top:4px; }
+
+.vote_list input[type="radio"]:checked + label:after{ top:8px; }
+
+
+
+
+.best_click_img > div.girl_icon { border:none; }
+.best_click_img { width:103px;height:99px;cursor:pointer; }
+.best_click_text > p {
+	font-size: 12px;
+	color: #999999;
+	width: 103px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

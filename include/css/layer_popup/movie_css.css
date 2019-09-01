@@ -1,0 +1,25 @@
+.padding_left_30 { padding-left:30px !important; }
+
+.popup_movie_table th {
+	background:#f4f4f6;
+	border-bottom:1px solid #ececec;
+	font-weight:bold;
+	height:36px;
+	color:#333;
+}
+
+.popup_movie_table td {
+	border-bottom:1px solid #ececec;
+	color:#666666;
+	height:30px;
+}
+
+.popup_movie_table td:first-child {
+	padding-left:30px;
+}
+
+.popup_movie_table td:nth-child(2),
+.popup_movie_table td:last-child {
+	text-align:center;
+}
+
