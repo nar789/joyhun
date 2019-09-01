@@ -61,7 +61,8 @@
 
 	<script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
 	
-	<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=<?=SITE_NAVER_ID?>&submodules=geocoder"></script>
+	<!--<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=<?=SITE_NAVER_ID?>&submodules=geocoder"></script>//-->
+	<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=ve6vphxt72"></script>
 
 	<?if(@$add_js){foreach($add_js as $js_name){?>
 		<script src="<?php echo JS_DIR?>/<?=$js_name?>.js"></script>
