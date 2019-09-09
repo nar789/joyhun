@@ -50,9 +50,11 @@
 	<? if(IS_APP and APP_OS == "IOS"){ ?>
 	<? }else{ ?>
 				<td style="width:2%"></td>
+				<!--
 				<td class="text-right" style="width:32%">
 					<input type="button" class="text_btn_de4949 pay_btn" value="무통장입금" onclick="javascript:payment_mobile('mu');">	
 				</td>
+				//-->
 	<? } ?>
 			</tr>
 		</table>
