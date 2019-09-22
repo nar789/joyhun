@@ -126,7 +126,6 @@ function m_area_position_search(){
 
 //지도클릭시 위치 업데이트 ajax
 function m_my_position_ajax(v){
-	
 	$.ajax({
 
 		type : "post",
@@ -137,7 +136,6 @@ function m_my_position_ajax(v){
 		cache : false,
 		async : false,
 		success : function(result){
-			
 			if(result != "1"){
 				alert("잠시후 다시 이용해 주시기 바랍니다.");
 				$(location).attr("href", "/chatting/town_find/order_login");

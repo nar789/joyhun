@@ -74,8 +74,10 @@ define('APP_ROOT_IOS', "/app_ios");
 
 define('CACHE_TIME', 600);
 
-define('SITE_NAVER_ID', "dbccsjPoxKmFvuhJUNr6");
-define('SITE_NAVER_PW', "DfvZMKJmvA");
+//define('SITE_NAVER_ID', "dbccsjPoxKmFvuhJUNr6");
+//define('SITE_NAVER_PW', "DfvZMKJmvA");
+define('SITE_NAVER_ID', "ve6vphxt72");
+define('SITE_NAVER_PW', "4xAXxKaGNoyBwF4lHX1d37BU3JoOOkQTbk36EasB");
 
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */

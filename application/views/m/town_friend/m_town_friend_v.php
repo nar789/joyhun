@@ -1,7 +1,6 @@
 <script type="text/javascript">
 	
 	$(document).ready(function(){
-		
 		//지도 생성시에 옵션을 지정할 수 있습니다.
 		var map = new naver.maps.Map('member_map', {
 			center: new naver.maps.LatLng('<?=$map_y_point?>', '<?=$map_x_point?>'), //지도의 초기 중심 좌표

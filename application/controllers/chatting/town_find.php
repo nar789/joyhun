@@ -50,12 +50,14 @@ class Town_find extends MY_Controller {
 				//검색조건이 있을경우
 				$addr = $val1." ".$val2;
 
-				$geo = get_naver_gps_code($addr, $cId, $cSecret);			//좌표구하기(common_helper)
+				$geo = get_naver_gps_code_v2($addr, $cId, $cSecret);			//좌표구하기(common_helper)
 			
 				$map_data = json_decode($geo, 1);
 
-				$data['map_x_point'] = @$map_data['result']['items'][0]['point']['x'];
-				$data['map_y_point'] = @$map_data['result']['items'][0]['point']['y'];
+				//$data['map_x_point'] = @$map_data['result']['items'][0]['point']['x'];
+				$data['map_x_point'] = @$map_data['addresses'][0]['x'];
+				//$data['map_y_point'] = @$map_data['result']['items'][0]['point']['y'];
+				$data['map_y_point'] = @$map_data['addresses'][0]['y'];
 
 				$m_conregion = $val1;
 				$m_conregion2 = $val2;
@@ -171,12 +173,14 @@ class Town_find extends MY_Controller {
 			//네이버 지도 좌표 구하기
 			//주소 만들기
 			$addr = $data['val1']." ".$data['val2'];					//주소		
-			$geo  = get_naver_gps_code($addr, $cId, $cSecret);			//좌표구하기(common_helper)
+			$geo  = get_naver_gps_code_v2($addr, $cId, $cSecret);			//좌표구하기(common_helper)
 
 			$map_data = json_decode($geo, 1);
 
-			$data['map_x_point'] = @$map_data['result']['items'][0]['point']['x'];
-			$data['map_y_point'] = @$map_data['result']['items'][0]['point']['y'];
+			//$data['map_x_point'] = @$map_data['result']['items'][0]['point']['x'];
+			//$data['map_y_point'] = @$map_data['result']['items'][0]['point']['y'];
+			$data['map_x_point'] = @$map_data['addresses'][0]['x'];
+			$data['map_y_point'] = @$map_data['addresses'][0]['y'];
 
 			//페이징 변수
 			$page = $this->pre_paging();
@@ -432,12 +436,15 @@ class Town_find extends MY_Controller {
 
 				$addr = $data['val1']." ".$data['val2'];
 
-				$geo = get_naver_gps_code($addr, SITE_NAVER_ID, SITE_NAVER_PW);
+				$geo = get_naver_gps_code_v2($addr, SITE_NAVER_ID, SITE_NAVER_PW);
 
 				$map_data = json_decode($geo, 1);
 
-				$data['xpoint'] = @$map_data['result']['items'][0]['point']['x'];
-				$data['ypoint'] = @$map_data['result']['items'][0]['point']['y'];
+				//$data['xpoint'] = @$map_data['result']['items'][0]['point']['x'];
+				//$data['ypoint'] = @$map_data['result']['items'][0]['point']['y'];
+				$data['xpoint'] = @$map_data['addresses'][0]['x'];
+				$data['ypoint'] = @$map_data['addresses'][0]['y'];
+
 				
 				$data['my_position'] = "get";		//내위치 marker 표시
 
@@ -481,17 +488,14 @@ class Town_find extends MY_Controller {
 		}		
 
 		//좌표로 지역 찾아오기
-		$get_addr = get_naver_gps_code_reverse($val, SITE_NAVER_ID, SITE_NAVER_PW);
+		$get_addr = get_naver_gps_code_reverse_v2($val, SITE_NAVER_ID, SITE_NAVER_PW);
 		$map_data = json_decode($get_addr, 1);
-		$addr = @$map_data['result']['items'][0]['address'];
+		///$addr = @$map_data['result']['items'][0]['address'];
+		$m_conregion = get_my_position(@$map_data['results'][0]['region']['area1']['name']);
+		$m_conregion2 = @$map_data['results'][0]['region']['area2']['name'];
 
-		if(!empty($addr)){			
-			$addr_array = explode(" ", $addr);
-			$m_conregion = get_my_position($addr_array[0]);
-			$m_conregion2 = $addr_array[1];
-		}
-		
 		$user_id = $this->session->userdata['m_userid'];
+
 		if(empty($user_id)){ echo "1000"; exit; }
 
 		if(!empty($m_conregion) and !empty($m_conregion2)){

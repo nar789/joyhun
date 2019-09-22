@@ -496,6 +496,31 @@ function getHttp($url, $headers=null){
 
 }
 
+function get_naver_gps_code_v2($addr, $cId, $cSecret){
+	echo "<script>alert('$addr')</script>";
+	$region = explode(" ", $addr);
+	if($region[0] == "세종"){
+		$addr = str_replace("세종", "세종특별자치시", $addr);
+	}
+
+	$addr = urlencode($addr);
+	$url = "https://naveropenapi.apigw.ntruss.com/map-geocode/v2/geocode?query=".$addr;
+
+	$headers = array();
+
+	$headers[] = "GET https://naveropenapi.apigw.ntruss.com/map-geocode/v2/geocode?".$addr;
+	$headers[] ="Host: naveropenapi.apigw.ntruss.com";
+	$headers[] ="Accept: */*";
+	$headers[] ="Content-Type: application/json";
+	$headers[] ="X-NCP-APIGW-API-KEY-ID: ".$cId;
+	$headers[] ="X-NCP-APIGW-API-KEY: ".$cSecret;
+	$headers[] ="Connection: Close";
+
+	$result = getHttp($url, $headers);		//common_helper
+
+	return $result;
+}
+
 
 //네이버 지도 주소->좌표
 function get_naver_gps_code($addr, $cId, $cSecret){
@@ -517,6 +542,27 @@ function get_naver_gps_code($addr, $cId, $cSecret){
 	$headers[] ="Content-Type: application/json";
 	$headers[] ="X-Naver-Client-Id: ".$cId;
 	$headers[] ="X-Naver-Client-Secret: ".$cSecret;
+	$headers[] ="Connection: Close";
+
+	$result = getHttp($url, $headers);		//common_helper
+
+	return $result;
+}
+
+//네이버 지도 좌표->주소
+function get_naver_gps_code_reverse_v2($addr, $cId, $cSecret){
+
+	$addr = urlencode($addr);
+	$url = "https://naveropenapi.apigw.ntruss.com/map-reversegeocode/v2/gc?output=json&&coords=".$addr;
+
+	$headers = array();
+
+	$headers[] = "GET https://naveropenapi.apigw.ntruss.com/map-reversegeocode/v2/gc?".$addr;
+	$headers[] ="Host: naveropenapi.apigw.ntruss.com";
+	$headers[] ="Accept: */*";
+	$headers[] ="Content-Type: application/json";
+	$headers[] ="X-NCP-APIGW-API-KEY-ID: ".$cId;
+	$headers[] ="X-NCP-APIGW-API-KEY: ".$cSecret;
 	$headers[] ="Connection: Close";
 
 	$result = getHttp($url, $headers);		//common_helper
