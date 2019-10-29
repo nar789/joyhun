@@ -59,6 +59,7 @@ class Tank_auth_admin
 
 				// Does password match hash in database?
 				$hasher = new PasswordHash(ADMIN_PHPASS_HASH_STRENGTH, ADMIN_PHPASS_HASH_PORTABLE);
+				//if(true){
 				if ($hasher->CheckPassword($password, $user->password)) {		// password ok
 
 					if ($user->banned == 1) {									// fail - banned

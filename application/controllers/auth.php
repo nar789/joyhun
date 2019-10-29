@@ -31,7 +31,9 @@ class Auth extends MY_Controller
 
 	function login()
 	{
-
+		//$hasher = new PasswordHash(PHPASS_HASH_STRENGTH, PHPASS_HASH_PORTABLE);
+		//$hashed_password = $hasher->HashPassword('niceday1');
+		//echo "<script>alert('".$hashed_password."');</script>";
 
 		if(!empty($this->session->userdata['regi_id'])){
 			reg_session_init();
@@ -370,6 +372,8 @@ class Auth extends MY_Controller
 					$this->form_validation->set_rules('captcha', '자동입력 방지문자', 'trim|xss_clean|required|callback__check_captcha');
 			}
 			$data['errors'] = array();
+
+			
 
 			if ($this->form_validation->run()) {								// validation ok
 				if ($this->tank_auth_admin->login(
