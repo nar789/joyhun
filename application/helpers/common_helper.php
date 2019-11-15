@@ -497,7 +497,7 @@ function getHttp($url, $headers=null){
 }
 
 function get_naver_gps_code_v2($addr, $cId, $cSecret){
-	echo "<script>alert('$addr')</script>";
+	//echo "<script>alert('$addr')</script>";
 	$region = explode(" ", $addr);
 	if($region[0] == "세종"){
 		$addr = str_replace("세종", "세종특별자치시", $addr);

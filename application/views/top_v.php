@@ -62,7 +62,9 @@
 	<script src="<?php echo JS_DIR?>/jquery.bxslider.js?<?=TODAY?>"></script>
 	<script src="<?php echo JS_DIR?>/jquery.bxslider.min.js?<?=TODAY?>"></script>
 	
-	<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=<?=SITE_NAVER_ID?>&submodules=geocoder"></script>
+	<!--<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=<?=SITE_NAVER_ID?>&submodules=geocoder"></script>//-->
+	<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=<?=SITE_NAVER_ID?>&submodules=geocoder"></script>
+
 
 	<? if(IS_LOGIN){ ?><script src="<?php echo JS_DIR?>/chat/alrim_js.js?<?=TODAY?>"></script><?}?>
 

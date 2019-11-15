@@ -27,7 +27,7 @@ class Town_find extends MY_Controller {
 		//파라미터 변수 받기
 		$data['val1'] = $val1 = rawurldecode($this->security->xss_clean(@url_explode($this->seg_exp, 'val1')));		//시, 도
 		$data['val2'] = $val2 = rawurldecode($this->security->xss_clean(@url_explode($this->seg_exp, 'val2')));		//구, 군
-		
+		echo $data['val1']." ".$data['val2'];
 
 		//네이버 API 관련 key value(common_helper)
 		$cId		= SITE_NAVER_ID;
@@ -37,42 +37,40 @@ class Town_find extends MY_Controller {
 
 		if(IS_MOBILE == true){
 			//모바일버전의 경우
-
 			//모바일 로그인 체크
 			user_check(null,0);
 
-			if(empty($member_data['m_xpoint']) and empty($member_data['m_ypoint'])){
+			if((empty($member_data['m_xpoint']) and empty($member_data['m_ypoint']))){
 				//맵 좌표가 없을경우 내위치 변경 페이지로 이동
 				goto('/chatting/town_find/my_position_map');
 			}
 
-			if(!empty($val1) and !empty($val2)){
-				//검색조건이 있을경우
-				$addr = $val1." ".$val2;
 
-				$geo = get_naver_gps_code_v2($addr, $cId, $cSecret);			//좌표구하기(common_helper)
-			
-				$map_data = json_decode($geo, 1);
+			$data['map_flag'] = "1";
 
-				//$data['map_x_point'] = @$map_data['result']['items'][0]['point']['x'];
-				$data['map_x_point'] = @$map_data['addresses'][0]['x'];
-				//$data['map_y_point'] = @$map_data['result']['items'][0]['point']['y'];
-				$data['map_y_point'] = @$map_data['addresses'][0]['y'];
-
-				$m_conregion = $val1;
-				$m_conregion2 = $val2;
-				
-				$data['map_flag'] = "1";
-			}else{
-				//검색조건이 없을경우
-				$data['map_x_point'] = $member_data['m_xpoint'];
-				$data['map_y_point'] = $member_data['m_ypoint'];
-				
-				$data['val1'] = $m_conregion = $member_data['m_conregion'];
-				$data['val2'] = $m_conregion2 = $member_data['m_conregion2'];
-
+			if(empty($val1) or empty($val2)){
+				//검색조건이 없다면
+				$data['val1'] = $val1 = $m_conregion = $member_data['m_conregion'];
+				$data['val2'] = $val2 = $m_conregion2 = $member_data['m_conregion2'];
 				$data['map_flag'] = "";
 			}
+
+			$addr = $val1." ".$val2;
+
+			$geo = get_naver_gps_code_v2($addr, $cId, $cSecret);			//좌표구하기(common_helper)
+		
+			$map_data = json_decode($geo, 1);
+
+			
+			//$data['map_x_point'] = @$map_data['result']['items'][0]['point']['x'];
+			$data['map_x_point'] = @$map_data['addresses'][0]['x'];
+			//$data['map_y_point'] = @$map_data['result']['items'][0]['point']['y'];
+			$data['map_y_point'] = @$map_data['addresses'][0]['y'];
+
+
+			$this->my_position_up($data['map_x_point'].",".$data['map_y_point']);
+			$member_data = $this->member_lib->get_member($this->session->userdata['m_userid']);
+
 
 			$data['my_position_x'] = $member_data['m_xpoint'];
 			$data['my_position_y'] = $member_data['m_ypoint'];

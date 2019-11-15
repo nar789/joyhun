@@ -58,8 +58,9 @@
 				position: naver.maps.Position.TOP_RIGHT
 			}
 		});
-
+		
 		<?=@$member_geo?>
+		
 	
 	});
 
