@@ -545,9 +545,46 @@ class Auth extends MY_Controller
 
 					$this->my_m->insert('reg_member', $regi_data);
 
+					/////인증생략 코드 //start
+
+							$this->session->set_userdata(array(		
+								"regi_user_name"		=> $regi_data['nick'],
+								"regi_birth_year"		=> '1988',
+								"regi_birth_month"		=> '11',
+								"regi_birth_day"		=> '11'
+							));
+					        if(!is_null($data = $this->tank_auth->create_user())){	//회원가입성공
+								$arrData = array(
+									"m_hp1"					=> '010',
+									"m_hp2"					=> '111',
+									"m_hp3"					=> '222',
+									"m_mobile_chk"			=> "1",
+									"m_mobile_chke_date"	=> NOW
+								);
+								//여성회원이 본인인증을 할경우 바로 정회원 처리
+								if($regi_data['sex'] == "F"){
+									$arrData['m_type'] = "V";
+								}
+								//회원 테이블 업데이트
+								$rtn = $this->my_m->update('TotalMembers', array('m_userid' => $regi_data['userid']), $arrData);
+								//echo "<script>alert('".$rtn."');</script>";
+								if($rtn == 1){
+
+									//업데이트후 회원 데이터 다시 가져오기
+									$mdata = $this->member_lib->get_member($regi_data['userid']);
+									//세션 업데이트
+									$this->session->set_userdata(array(
+										"m_mobile_chk"	=> $mdata['m_mobile_chk'],
+										"m_type"		=> $mdata['m_type']
+									));
+								}
+							}
+					/////인증생략 코드 //end
+							
+
 					
 					if(IS_MOBILE == true){
-						redirect("/m/regi_demo/demo1");
+						redirect("/");
 					}else{
 						redirect("/auth/register_cert/");
 					}
