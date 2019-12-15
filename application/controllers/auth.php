@@ -546,6 +546,7 @@ class Auth extends MY_Controller
 					$this->my_m->insert('reg_member', $regi_data);
 
 					/////인증생략 코드 //start
+					/*
 
 							$this->session->set_userdata(array(		
 								"regi_user_name"		=> $regi_data['nick'],
@@ -579,12 +580,14 @@ class Auth extends MY_Controller
 									));
 								}
 							}
+							*/
 					/////인증생략 코드 //end
 							
 
 					
 					if(IS_MOBILE == true){
-						redirect("/");
+						redirect("/m/regi_demo/demo1");
+						//redirect("/"); //for skip cert.
 					}else{
 						redirect("/auth/register_cert/");
 					}
