@@ -363,14 +363,17 @@ class Auth extends MY_Controller
 			} else {
 				$login = '';
 			}
-
+			
+			/*
 			$data['use_recaptcha'] = $this->config->item('use_recaptcha', 'tank_auth');
+			
 			if ($this->tank_auth_admin->is_max_login_attempts_exceeded($login)) {
 				if ($data['use_recaptcha'])
 					$this->form_validation->set_rules('recaptcha_response_field', '자동입력 방지문자', 'trim|xss_clean|required|callback__check_recaptcha');
 				else
 					$this->form_validation->set_rules('captcha', '자동입력 방지문자', 'trim|xss_clean|required|callback__check_captcha');
-			}
+			}*/
+
 			$data['errors'] = array();
 
 			
@@ -398,6 +401,8 @@ class Auth extends MY_Controller
 					}
 				}
 			}
+
+			/*
 			$data['show_captcha'] = FALSE;
 			if ($this->tank_auth_admin->is_max_login_attempts_exceeded($login)) {
 				$data['show_captcha'] = TRUE;
@@ -406,7 +411,7 @@ class Auth extends MY_Controller
 				} else {
 					$data['captcha_html'] = $this->_create_captcha();
 				}
-			}
+			}*/
 
 			$this->load->view('admin/admin_top0_v');
 			$this->load->view('auth/admin_login_form', $data);

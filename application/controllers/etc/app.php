@@ -326,10 +326,11 @@ class App extends MY_Controller {
 		}
 
 		//3.구글 영수증 검증 실행
+		/*
 		$check = $this->validator($json_arr->id,$json_arr->transaction->purchaseToken);
 		if($check == "error"){
 			echo "error2";exit;
-		}
+		}*/
 
 		//4. 받은 결제정보 앱용 테이블에 저장
 		$arr_data = array(
