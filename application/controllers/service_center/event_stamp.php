@@ -214,7 +214,7 @@ class Event_stamp extends MY_Controller {
 					
 					if(!empty($pd)){
 						//출석체크시 조이헌팅 5포인트 지급
-						member_point_insert($this->session->userdata['m_userid'], $pd['m_product_code'], $pd['m_goods'], $pd['m_point'], null, $pd['m_product_code'], NOW, '출석체크 포인트 지급');
+						//member_point_insert($this->session->userdata['m_userid'], $pd['m_product_code'], $pd['m_goods'], $pd['m_point'], null, $pd['m_product_code'], NOW, '출석체크 포인트 지급');
 					}
 
 					echo "1";		//출석하셨습니다.
@@ -245,7 +245,7 @@ class Event_stamp extends MY_Controller {
 
 				if(!empty($pd)){
 					//출석체크시 조이헌팅 5포인트 지급
-					member_point_insert($this->session->userdata['m_userid'], $pd['m_product_code'], $pd['m_goods'], $pd['m_point'], null, null, NOW, '출석체크 포인트 지급');
+					//member_point_insert($this->session->userdata['m_userid'], $pd['m_product_code'], $pd['m_goods'], $pd['m_point'], null, null, NOW, '출석체크 포인트 지급');
 				}
 
 				echo "1";		//출석하셨습니다.
