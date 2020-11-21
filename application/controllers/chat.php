@@ -67,8 +67,9 @@ class Chat extends MY_Controller {
 		if($data['m_conregion2']){ $data['add_text'] .= " / ".$data['m_conregion2'];	}
 		if($data['m_age']){	$data['add_text'] .= " / ".$data['m_age']."세";	}
 	
-		$rtn = $this->my_m->row_array('chat_request', array('send_id' => $user_id, 'recv_id' => $this->session->userdata['m_userid'], 'ex_status' => 'status not in("수락", "거절") and is_delete is null'));
 		
+
+		$rtn = $this->my_m->row_array('chat_request', array('send_id' => $user_id, 'recv_id' => $this->session->userdata['m_userid'], 'ex_status' => 'status not in("수락", "거절") and is_delete is null'));		
 		$data['greeting'] = "0";
 
 		if(!empty($rtn)){
@@ -99,6 +100,8 @@ class Chat extends MY_Controller {
 					$data['greeting'] = "1";
 				}
 
+
+				/*
 				$my_map_data = getGeo($this->session->userdata['m_userid']);		
 				
 				if(empty($data['m_xpoint']) and empty($data['m_ypoint'])){
@@ -107,9 +110,10 @@ class Chat extends MY_Controller {
 				}else{
 				
 					$data['map_point'] = $user_map_data = array($data['m_xpoint'], $data['m_ypoint']);
-				}
+				}*/
 				
-				$data['to_distance'] = getDistance($user_map_data[0], $user_map_data[1], $my_map_data[0], $my_map_data[1]);		
+				//$data['to_distance'] = getDistance($user_map_data[0], $user_map_data[1], $my_map_data[0], $my_map_data[1]);		
+				$data['to_distance'] = "0km";
 				
 				$rtn_distance = str_replace("km", "", $data['to_distance']);
 				if($rtn_distance <= "10"){
@@ -128,7 +132,8 @@ class Chat extends MY_Controller {
 			
 
 		}else{
-
+			//11.21 leejunghun
+			/*
 			$my_map_data = getGeo($this->session->userdata['m_userid']);		
 				
 			if(empty($data['m_xpoint']) and empty($data['m_ypoint'])){
@@ -137,9 +142,10 @@ class Chat extends MY_Controller {
 			}else{
 				
 				$data['map_point'] = $user_map_data = array($data['m_xpoint'], $data['m_ypoint']);
-			}
+			}*/
 			
-			$data['to_distance'] = getDistance($user_map_data[0], $user_map_data[1], $my_map_data[0], $my_map_data[1]);		
+			//$data['to_distance'] = getDistance($user_map_data[0], $user_map_data[1], $my_map_data[0], $my_map_data[1]);		
+			$data['to_distance'] = '0km';
 
 			$top_data['add_title'] = "채팅신청하기";
 
@@ -831,6 +837,8 @@ class Chat extends MY_Controller {
 		
 			$data['user_img_src'] = img_src_ex($this->member_lib->member_thumb($user_id));
 
+			/*
+
 			$my_map_data = getGeo($this->session->userdata['m_userid']);			
 				
 			if(empty($data['m_xpoint']) and empty($data['m_ypoint'])){
@@ -839,9 +847,10 @@ class Chat extends MY_Controller {
 			}else{
 			
 				$data['map_point'] = $user_map_data = array($data['m_xpoint'], $data['m_ypoint']);
-			}
+			}*/
 			
-			$data['to_distance'] = getDistance($user_map_data[0], $user_map_data[1], $my_map_data[0], $my_map_data[1]);		//거리구하기(code_change_helper)
+			//$data['to_distance'] = getDistance($user_map_data[0], $user_map_data[1], $my_map_data[0], $my_map_data[1]);		//거리구하기(code_change_helper)
+			$data['to_distance'] = '0km';		//거리구하기(code_change_helper)
 
 			$this->load->view('layer_popup/m_send_chat_request_map_v',@$data);
 //		}else{
@@ -899,6 +908,7 @@ class Chat extends MY_Controller {
 			}
 
 		
+			/*
 			$my_map_data = getGeo($this->session->userdata['m_userid']);	
 			if(empty($data['m_xpoint']) and empty($data['m_ypoint'])){
 		
@@ -906,8 +916,9 @@ class Chat extends MY_Controller {
 			}else{
 
 				$data['map_point'] = $user_map_data = array($data['m_xpoint'], $data['m_ypoint']);
-			}
-			$data['to_distance'] = getDistance($user_map_data[0], $user_map_data[1], $my_map_data[0], $my_map_data[1]);		//거리구하기(code_change_helper)
+			}*/
+			//$data['to_distance'] = getDistance($user_map_data[0], $user_map_data[1], $my_map_data[0], $my_map_data[1]);		//거리구하기(code_change_helper)
+			$data['to_distance'] = '0km';	//거리구하기(code_change_helper)
 
 			$rtn_distance = str_replace("km", "", $data['to_distance']);
 
