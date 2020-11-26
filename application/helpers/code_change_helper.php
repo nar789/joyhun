@@ -1018,8 +1018,10 @@
 	
 	//지역으로 위치 좌표 생성하기
 	function get_map_addr($addr){
+		return array(0, 0);
 
 		//네이버 API 관련 key value(common_helper)
+		/*
 		$cId		= SITE_NAVER_ID;
 		$cSecret	= SITE_NAVER_PW;
 
@@ -1038,7 +1040,7 @@
 		$y_point = @$map_data['result']['items'][0]['point']['y']+$str_y_rand;		//y좌표
 
 		return array($x_point, $y_point);
-
+		*/
 	}
 	
 

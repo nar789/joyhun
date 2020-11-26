@@ -103,7 +103,8 @@ class Name_check extends MY_Controller {
 		
 		// POQ 결제페이지로 이동
 		$strPayUrl = "https://pg1.payletter.com/PGSVC/" . $strPGHostURL . "?clientparam=" . $EncryptedData;
-		echo ("<SCRIPT LANGUAGE='JavaScript'>location.href='$strPayUrl';</SCRIPT>");
+		//alert("userid = ".$user_id.", url = ".print_r($strPayUrl));//for test 
+		echo ("<SCRIPT LANGUAGE='JavaScript'>location.href='".$strPayUrl."';</SCRIPT>");
 
 	}
 
