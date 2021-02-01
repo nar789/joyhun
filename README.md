@@ -2,6 +2,20 @@
 
 ## PLM
 
+### hide mobile banner ad
+
+- CID : 861e0ebed8bf27e44b7aeef36f67160fb9ef4fa2
+- ISSUE : 모바일 리스트 m/online_mb 배너 광고 숨김 처리
+- REASON : 모바일 배너 광고 숨김처리
+- MEASURE : latest_helper에서 m_list_banner() 공백으로 return 처리
+
+### hide my introduce
+
+- CID : e291d03151a684ac164eaf9410c166a948c0c419
+- ISSUE : 의뢰인 요구사항으로 프로필 profile/main/user자기소개 숨김처리
+- REASON : 의뢰인 요구사항으로 프로필 자기소개 숨김처리
+- MEASURE : views/profile/main_v.php 에서 my_intro 관련 코드 주석 처리
+
 ### [P201127] fix register_cert bug
 
 - CID : 7a69f6c50f1dc7c936de9a1f0af85e6c0b90e44d
