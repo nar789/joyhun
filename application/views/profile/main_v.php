@@ -27,13 +27,14 @@
 					<?=$pic_data3?>
 				</div>
 
-
+				<!--
 				<div class="profile_text">
-					<?=$u_info['my_intro']?><br>
+					<=$u_info['my_intro']><br>
 				</div>
+				//-->
 				
 				<?if($my_profile){?>
-					<input type="button" class="text_btn2_d2d2d2 block profile_text_modi" value="인사말 변경" onclick="javascript:location.href='/profile/my_info';"/>
+					<!--<input type="button" class="text_btn2_d2d2d2 block profile_text_modi" value="인사말 변경" onclick="javascript:location.href='/profile/my_info';"/>//-->
 				<?}else{?>
 					<div class="block ver_bottom margin_left_6">
 						<div class="icon_btn_bababa margin_left_1" onclick="<?user_check("view_profile('$recv_id');");?>"><span class="img_mail_btn"></span></div>
