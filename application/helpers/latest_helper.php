@@ -1134,6 +1134,8 @@
 	
 	//모바일 리스트 배너 랜덤으로 출력
 	function m_list_banner(){
+		return "";
+		//의뢰자 요구사항 21.02.01
 		
 		$CI =& get_instance();
 		$str = "";		
