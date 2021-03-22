@@ -15,8 +15,10 @@
 							<textarea class="top_textarea2" placeholder="나의 인연을 찾고있습니다." id="m_msg"></textarea>
 							
 							<div class="open_guhon_btn_box">
-								<div class="btn01"><a href="javascript:reg_open_guhon('결혼')">결혼구혼 등록</a></div>
-								<div class="btn02"><a href="javascript:reg_open_guhon('재혼')">재혼구혼 등록</a></div>
+								<!--<div class="btn01"><a href="javascript:reg_open_guhon('결혼')">결혼구혼 등록</a></div>//-->
+								<div class="btn01"><a href="javascript:void(0)" onclick="return false;">결혼구혼 등록</a></div>
+								<!--<div class="btn02"><a href="javascript:reg_open_guhon('재혼')">재혼구혼 등록</a></div>//-->
+								<div class="btn02"><a href="javascript:void(0)" onclick="return false;">재혼구혼 등록</a></div>
 							</div>
 							
 

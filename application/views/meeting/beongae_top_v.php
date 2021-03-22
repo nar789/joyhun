@@ -74,7 +74,8 @@
 							<textarea placeholder="내용을 입력하세요."  name="w_intro" id="w_intro" maxlength="200" onkeyup="return textarea_maxlength(this)"></textarea>
 						</div>
 					</div>
-					<input type="button" class="text_btn_ea3e3e light_add_btn" value="번개팅 등록하기" onclick="<?user_check("form_check();",1);?>">
+					<!--<input type="button" class="text_btn_ea3e3e light_add_btn" value="번개팅 등록하기" onclick="<php user_check("form_check();",1);php>">//-->
+					<input type="button" class="text_btn_ea3e3e light_add_btn" value="번개팅 등록하기" onclick="return false;">
 				</div>
 			</div>
 		</div>

@@ -11,7 +11,8 @@
 						<? } ?>
 					</div>
 					<textarea class="top_textarea" placeholder="나의 짝을 찾고있습니다." id="m_cmt" name="m_cmt"></textarea>
-					<div class="text_btn_de4949 top_textarea_subbtn" onclick="<?=user_check("javascript:reg_mate();")?>">
+					<!--<div class="text_btn_de4949 top_textarea_subbtn" onclick="<php=user_check("javascript:reg_mate();")php>">//-->
+					<div class="text_btn_de4949 top_textarea_subbtn" onclick="return false;">
 						<div class="margin_top_19 font-size_14">애정촌<br>등록하기</div>
 					</div>
 				</div>

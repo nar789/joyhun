@@ -14,7 +14,8 @@
 						<? } ?>
 						</div>
 						<textarea class="top_textarea border_1_7b5dfb width_291" id="t_context" placeholder="안녕하세요~ 반갑습니다."></textarea>
-						<div class="text_btn_de4949 top_textarea_subbtn bg_fdeb08" onclick="<?user_check("talk_insert('$v_userid', '1');");?>">
+						<!--<div class="text_btn_de4949 top_textarea_subbtn bg_fdeb08" onclick="<php user_check("talk_insert('$v_userid', '1');");php>">//-->
+						<div class="text_btn_de4949 top_textarea_subbtn bg_fdeb08" onclick="return false;">
 							<div class="margin_top_19 font-size_14 blod color_7b5dfb">토크<br>올리기</div>
 						</div>
 					</div>

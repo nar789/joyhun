@@ -9,7 +9,8 @@
 						<? if(@$marry_data['cnt'] > 0){ ?>
 						<input type="button" class="font_900 text_btn2_805222 marriage_btn" value="결혼신청 수정하기" onclick="<?user_check("m_request();");?>"/>	<!-- 결혼신청 값 있으면 -->
 						<? }else{ ?>
-						<input type="button" class="font_900 text_btn2_805222 marriage_btn" value="결혼신청 등록하기" onclick="<?user_check("m_request();");?>"/> 
+						<!--<input type="button" class="font_900 text_btn2_805222 marriage_btn" value="결혼신청 등록하기" onclick="<php user_check("m_request();"); php>"/> //-->
+						<input type="button" class="font_900 text_btn2_805222 marriage_btn" value="결혼신청 등록하기" onclick="return false;"/>
 						<? } ?>
 					</div>
 					<div class="clear"></div>

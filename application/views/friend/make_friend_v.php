@@ -24,7 +24,8 @@
 					</select>
 				</div>
 				<input type="text" class="friend_add_text friend_memo" name="friend_add_memo" placeholder="한줄메모"/>
-				<input type="button" class="text_btn_c32a6f friend_add_btn" value="등록하기" onclick="javascript:top_frined_add();"/>
+				<!--<input type="button" class="text_btn_c32a6f friend_add_btn" value="등록하기" onclick="javascript:top_frined_add();"/>-->
+				<input type="button" class="text_btn_c32a6f friend_add_btn" value="등록하기" onclick="return false;"/>
 			</div>
 			<div class="mCustomScrollbar friend_scroll">
 			<!-- <div class=" friend_scroll" style="height:500px;"> -->

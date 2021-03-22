@@ -14,7 +14,8 @@
 						<? } ?>
 						</div>
 						<textarea id="m_dbcontent" name="m_dbcontent" class="top_textarea" placeholder="앤들에게 소식을 전하세요~" maxlength="200" onkeyup="return textarea_maxlength(this)"></textarea>
-						<div class="text_btn_da284b top_textarea_subbtn" onclick="<?user_check("form_check();");?>">
+						<!--<div class="text_btn_da284b top_textarea_subbtn" onclick="<php user_check("form_check();"); php>">//-->
+						<div class="text_btn_da284b top_textarea_subbtn" onclick="return false;">
 							<div class="margin_top_30 font-size_14">등록하기</div>
 						</div>					
 					</div>
