@@ -2,6 +2,14 @@
 
 ## PLM
 
+### block write feature on some boards
+
+- CID : 142da0ac7a85911e65d61f294e76321a8c96363b
+- ISSUE : 번개팅/소설팅/짝애정촌/친구만들기/애인만들기/공개구혼/결혼신청/재혼신청/토크
+  에 대하여 글 쓰기를 못하도록 수정 요청
+- REASON : 불량 게시물이 과다하게 올라옴
+- MEASURE : 각 게시판 views 페이지에서 write button을 주석처리
+
 ### hide mobile banner ad
 
 - CID : 861e0ebed8bf27e44b7aeef36f67160fb9ef4fa2
