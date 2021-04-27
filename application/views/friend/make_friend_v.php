@@ -57,7 +57,8 @@
 					<form method="post" action="">
 						<textarea id="m_content" name="m_content" class="make_pr_text" placeholder="소개말을 입력해주세요(200자 이내로 적어주세요)." maxlength="200" onkeyup="return textarea_maxlength(this)"></textarea>
 						<!--<div class="make_pr_text_cnt"></div>-->
-					<input type="button" class="text_btn_c32a6f make_pr_btn" value="등록하기" onclick="<?user_check("form_check();",9);?>">
+					<!--<input type="button" class="text_btn_c32a6f make_pr_btn" value="등록하기" onclick="<php user_check("form_check();",9);php>">//-->
+					<input type="button" class="text_btn_c32a6f make_pr_btn" value="등록하기" onclick="return false;">
 					</form>
 				</div>
 			</div>
