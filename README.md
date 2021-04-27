@@ -2,6 +2,13 @@
 
 ## PLM
 
+### block write on make friend
+
+- CID : 033ffda6915f17caff8936c9fdd86dc6625c05b9
+- ISSUE : 친구만들기 게시판에 대해 block처리하지 못한 등록하기 버튼 하나가 존재했습니다.
+- REASON : 친구만들기 게시판에 대해 block처리하지 못한 등록하기 버튼 하나가 존재했습니다.
+- MEASURE : 놓쳤던 write button의 click listener를 false로 처리했습니다.
+
 ### block write feature on some boards
 
 - CID : 142da0ac7a85911e65d61f294e76321a8c96363b
