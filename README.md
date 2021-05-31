@@ -2,6 +2,13 @@
 
 ## PLM
 
+### chg admin count of user list to 30 and add print feature for printing user list
+
+- CID : fc696d5908072668c96eac8756bf0de8142377d7
+- ISSUE : 관리자 유저 목록 카운트 개수를 30개로 늘리고 유저 목록 프린트 기능을 추가
+- REASON : 대표 요청
+- MEASURE : 관리자 유저 목록 카운트 개수를 30개로 늘리고 유저 목록 프린트 기능을 추가
+
 ### block write on make friend
 
 - CID : 033ffda6915f17caff8936c9fdd86dc6625c05b9
