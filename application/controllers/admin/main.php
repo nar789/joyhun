@@ -111,7 +111,7 @@ class Main extends MY_Controller {
 		
 		//페이징 변수
 		$page = $this->pre_paging();
-		$rp =10; //리스트 갯수
+		$rp =30; //리스트 갯수
 		$limit = 9; //보여줄 페이지수
 		$start = (($page-1) * $rp);
 

@@ -1,4 +1,13 @@
 <script>
+
+function callPrint() {
+  var divToPrint = document.getElementById("users-table");
+  newWin = window.open("");
+  newWin.document.write(divToPrint.outerHTML);
+  newWin.print();
+  newWin.close();
+}
+
 $(document).ready(function(){
 	$("#search_btn").click(function(){
 		var sfl_val = $("select[name=sfl]").val();
@@ -135,6 +144,7 @@ while (list($key, $value) = each($sfl_arr))
 								<li><a href="#" class="opt panel_colapse" data-toggle="tooltip" title="Colapse" data-placement="bottom"></a></li>
 								<li><a href="#" class="opt panel_fullscreen hidden-xs" data-toggle="tooltip" title="Fullscreen" data-placement="bottom"><i class="fa fa-expand"></i></a></li>
 								<li><a href="#" class="opt panel_close" data-confirm-title="Confirm" data-confirm-message="Are you sure you want to remove this panel?" data-toggle="tooltip" title="Close" data-placement="bottom"><i class="fa fa-times"></i></a></li>
+								<li><a href="javascript:callPrint()" data-toggle="tooltip" title="Print" data-placement="bottom"><i class="fa fa-print"></i></a></li>
 							</ul>
 							<!-- /right options -->
 
@@ -144,7 +154,7 @@ while (list($key, $value) = each($sfl_arr))
 						<div class="panel-body">
 
 							<div class="table-responsive">
-								<table class="table table-bordered table-vertical-middle nomargin">
+								<table class="table table-bordered table-vertical-middle nomargin" id="users-table">
 									<thead>
 										<tr>
 											<th>아이디</th>
