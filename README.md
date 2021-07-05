@@ -2,6 +2,13 @@
 
 ## PLM
 
+### add meta tag for searching by naver bot
+
+- CID : 0a3c5340f25ee2315d80fa1eed6fdbfb66e40c61
+- ISSUE : 네이버 사이트 등록을 위한 메타 태그 추가
+- REASON : 대표 요청
+- MEASURE : views/top_v.php에 메타 태그 추가
+
 ### chg admin count of user list to 30 and add print feature for printing user list
 
 - CID : fc696d5908072668c96eac8756bf0de8142377d7
