@@ -28,6 +28,7 @@
 	<meta name="twitter:image" content="http://blog.naver.com/joyhunting">
 	<meta name="twitter:domain" content="조이헌팅">
 	<meta name="google-site-verification" content="WU-BfyTPwU3nfGaxpgp0_rXY6OL6VzJ5De0ElbP90Sg" />
+	<meta name="naver-site-verification" content="d7945c88befff0b35d8254e2d07d0504a395816c" />
 	
 	<? if(IS_LOGIN){ ?>
 	<meta http-equiv=Cache-Control content="no-cache; must-revalidate">
