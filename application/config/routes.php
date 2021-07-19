@@ -44,5 +44,7 @@ $route['404_override'] = '';
 $route['free/(:any)'] = "board/index";
 $route['notice/(:any)'] = "board/index";
 
+$route['.well-known/pki-validation/(:any)'] = "fileauth";
+
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
