@@ -2,6 +2,14 @@
 
 ## PLM
 
+### add token for kpi request
+
+- CID : 372d576ca6e83f69e3780f717678761b4c032091
+- ISSUE : 한국전자인증 도메인 심사를 위한 토큰 추가
+- REASON : 대표 요청
+- MEASURE : http://joyhunting.com/.well-known/pki-validation/fileauth.txt 에 토큰이
+  토큰이 표시되도록 라우팅 설정
+
 ### add meta tag for searching by naver bot
 
 - CID : 0a3c5340f25ee2315d80fa1eed6fdbfb66e40c61
